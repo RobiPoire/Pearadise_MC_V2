@@ -1,9 +1,9 @@
 Messages:
   Reloaded: '&eImageFrame a été rechargé !'
   ImageMapProcessing: '&eImageMap est en cours de traitement, veuillez patienter !'
-  # Laisser vide ("") pour désactiver le message de la barre d'action
+  # Leave this empty ("") to disable action bar message
   ImageMapProcessingActionBar: '&eImageMap &a{Name} &eest en cours de traitement{Dots}'
-  # Laisser vide ("") pour désactiver le message de la barre d'action
+  # Leave this empty ("") to disable action bar message
   ImageMapQueuedActionBar: '&7ImageMap &a{Name} &eest actuellement en file d''attente ({Position} restant)'
   ImageMapCreated: '&aImageMap a été créé !'
   ImageMapRefreshed: '&aImageMap a été rafraîchi !'
@@ -75,7 +75,7 @@ Messages:
     NotAMarker: '&cCe n''est pas un marqueur valide'
     NotRenderOnFrameWarning: '&eAvertissement : Ce type de marqueur ne se rend pas sur les Item Frames !'
     LimitReached: '&cVous ne pouvez créer que {Limit} marqueurs sur une carte !'
-  # Format de date utilisé pour les variables basées sur le temps
+  # Date format used where a time based variable is displayed
   DateFormat: dd/MM/yyyy HH:mm:ss zzz
   Preferences:
     Keys:
@@ -88,11 +88,11 @@ Messages:
 
 Settings:
   MapItemFormat: '&f{Name} &7({X}, {Y})'
-  # Indique si des cartes vides sont nécessaires pour créer des image maps hors mode créatif
+  # Whether empty maps are required to create image maps when not in creative
   RequireEmptyMaps: true
-  # Taille maximale d’une image map
+  # Max size of an image map
   MaxSize: 100
-  # Quand activé, seules les URLs des sites listés ci-dessous sont autorisées pour les cartes en jeu
+  # When enabled, Only websites from the list below is allowed to be shown through in-game maps
   RestrictImageUrl:
     Enabled: false
     Whitelist:
@@ -106,25 +106,25 @@ Settings:
       - http://media.discordapp.net
       - https://textures.minecraft.net
       - http://textures.minecraft.net
-  # Si l’image est plus grande que cette taille, elle ne sera pas téléchargée pour l’aperçu
-  # (En octets)
+  # If the image is larger than the defined size, it won't be downloaded for preview
+  # (In Bytes)
   MaxImageFileSize: 52428800
-  # Si une image prend plus de ce temps à charger, elle sera rejetée
-  # (En secondes)
+  # If an image takes more than this time to load, it will be rejected
+  # (In Seconds)
   MaxProcessingTime: 60
-  # Nombre d’images à traiter en parallèle
-  # Modifier cette option nécessite un redémarrage du serveur
+  # How many images should be processed in parallel
+  # Updating this option requires a server restart
   ParallelProcessingLimit: 1
-  # Nombre maximum de cartes images qu’un joueur dans les groupes suivants peut créer
-  # Mettre -1 pour illimité
-  # Pour ajouter un joueur à un groupe, donnez la permission "imageframe.createlimit.<groupe>"
-  # Exemple "imageframe.createlimit.vip"
-  # Les joueurs sans groupe sont traités comme "default" sauf s’ils ont "imageframe.createlimit.unlimited"
+  # Max amount of image maps a player in the following groups can create
+  # Setting -1 means unlimited
+  # To add a player to a group, give the permission "imageframe.createlimit.<group>"
+  # For example "imageframe.createlimit.vip"
+  # Players with no groups will be treated as "default" unless they have "imageframe.createlimit.unlimited"
   PlayerCreationLimit:
     default: 10
     vip: 15
     moderator: 20
-  # Nombre maximum de marqueurs sur une carte individuelle
+  # Max amount of markers on an individual map
   MapMarkerLimit: 20
   CombinedMapItem:
     Name: '&bImageMap &f- &f{Name} &7({Width} x {Height})'
@@ -134,60 +134,57 @@ Settings:
       - '&7ImageID: {ImageID}'
       - '&7Créateur: {CreatorName} ({CreatorUUID})'
       - '&7Heure de création: {TimeCreated}'
-  # Combien de paquets de carte peuvent être envoyés à un joueur en 1/20ème de seconde
-  # Vous pouvez réduire ce nombre en cas de problèmes réseau
-  # Mais les cartes peuvent mettre plus de temps à s’afficher chez le joueur
-  # Pour désactiver la limite, mettez -1
+  # How many map packets can be sent to a player in 1/20 of a second
+  # You can turn this down if you are facing network issues
+  # However maps might take longer to show to a player
+  # To disable the rate limit, set to -1
   MapPacketSendingRateLimit: -1
-  # Exempter certains IDs de carte de la suppression si leur ImageFrame est supprimé
-  # Valeurs possibles : ids simples ("13") ou plages inclusives ("10-13")
+  # Exempt certain map ids from deletion if their ImageFrame map is deleted
+  # Values can be map ids (For example: "13") or ranges (inclusive) of map ids (For example: "10-13")
   ExemptMapIdsFromDeletion:
     - '-1'
-  # Option utile principalement pour les développeurs ou utilisateurs avancés
+  # This option should only be useful to developers and people who knew what they are doing
   MapRenderersContextual: false
-  # Modifier cette option nécessite un redémarrage
+  # Changing this option requires a restart
   HandleAnimatedMapsOnMainThread: false
   SendAnimatedMapsOnMainThread: false
-  # Modes valides : "DYNAMIC" et "MANUAL_PERSISTENT"
-  # DYNAMIC : charge et décharge le cache d’images selon la visualisation par les joueurs
-  # Peut utiliser plus de CPU et causer un léger délai d’affichage
-  # MANUAL_PERSISTENT : le cache d’images reste chargé depuis le démarrage du serveur
-  # Peut utiliser plus de mémoire
-  # Modifier cette option nécessite un redémarrage
+  # Valid modes are "DYNAMIC" and "MANUAL_PERSISTENT"
+  # DYNAMIC: load and unload image cache depending on whether a player is viewing
+  # May use more CPU and image might appear with a slight delay
+  # MANUAL_PERSISTENT: image cache stay loaded from server start
+  # May use more memory
+  # Changing this setting requires a restart
   CacheControlMode: MANUAL_PERSISTENT
-  # Mettre à true si vous avez des données corrompues de carte taille 0 dans le dossier du monde (pas dans celui du plugin)
-  # Mettre à false si les entrées/sorties fichier de votre système sont lentes
+  # Set this to true if you have corrupted 0 size map data in the world folder (not the ImageFrame plugin folder)
+  # Set this to false if your system's file IO is slow
   TryDeleteBlankMapFiles: false
-
-# Système d’upload pratique d’ImageFrame via un serveur web intégré
+# ImageFrame's convenient upload system where you can upload directly through an embedded web server
 UploadService:
-  # Modifier cette valeur nécessite un redémarrage
+  # Changing this value requires a restart
   Enabled: true
-  # URL affichée à l’utilisateur final (à changer dans la config)
+  # This is only used for displaying to the end user
   DisplayURL: http://change.this.to.your.server.ip.in.the.config
   WebServer:
-    # Adresse liée au serveur web, défaut 0.0.0.0
-    # Utiliser 127.0.0.1 pour limiter l’accès local
-    # Modifier cette valeur nécessite un redémarrage
+    # Address in which the webserver binds to, defaults to 0.0.0.0
+    # Use 127.0.0.1 to limit to local access
+    # Changing this value requires a restart
     Host: 0.0.0.0
-    # Port du serveur web, vérifier qu’il n’est pas bloqué par le pare-feu
-    # Modifier cette valeur nécessite un redémarrage
+    # Port in which the webserver is hosted, make sure it is not blocked by your firewall
+    # Changing this value requires a restart
     Port: 8517
-
-# Méthode "survie" intégrée pour fabriquer des cadres d’objets invisibles
+# ImageFrame's built in survival friendly way of making invisible item frames
 InvisibleFrame:
-  # Façon survie d’obtenir des cadres invisibles en splashant des items avec des potions d’invisibilité
-  # Mettre -1 pour illimité
-  # Mettre 0 pour désactiver
+  # Survival friendly way to get invisible item frames by splashing dropped items with invisibility potions
+  # Set to -1 for unlimited
+  # Set to 0 to disable
   MaxConversionsPerSplash: 8
-  # Les cadres d’objets vides invisibles doivent-ils briller ?
-  # Les cadres existants ne sont mis à jour qu’à l’interaction
+  # Should empty invisible item frames glow
+  # Existing frames are not updated until they are interacted with
   GlowEmptyFrames: true
 
 Hooks:
   ViaVersion:
-    # Activer si vos joueurs en dessous de la version 1.13 ont des soucis réseau
+    # Enable this if your players below 1.13 is having network issues
     DisableSmoothAnimationForLegacyPlayers: false
-
-# Activer les notifications de mise à jour pour les admins
+# Enable update notifications for admins
 Updater: true

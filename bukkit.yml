@@ -1,13 +1,13 @@
-# Ceci est le fichier de configuration Bukkit dans Paper.
-# Comme vous pouvez le voir, il n'y a en réalité pas grand-chose à configurer sans plugins.
+# This is the Bukkit configuration file in Paper.
+# As you can see, there's actually not that much to configure without any plugins.
 #
-# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
-# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
 #
-# Référence du fichier : https://docs.papermc.io/paper/reference/bukkit-configuration/
-# Documentation : https://docs.papermc.io/
-# Discord : https://discord.gg/papermc
-# Site web : https://papermc.io/
+# File Reference: https://docs.papermc.io/paper/reference/bukkit-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
 settings:
   allow-end: false

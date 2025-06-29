@@ -1,11 +1,10 @@
-# Indique si l’envoi de données anonymes doit être activé.
-# Activer cette option nous aide à recueillir des données utiles,
-# comme la version du serveur, la version de Java que vous utilisez,
-# et la popularité de nos plugins.
+# If sending anonymous data should be enabled.
+# Having this enabled helps us gain insightful data
+# such as the server version, the java version you are using,
+# and how popular our plugins are.
 #
-# Vous voulez en savoir plus ? Consultez nos statistiques ici : https://metrics.artillex-studios.com/
+# Want to know more? Check out our metrics at: https://metrics.artillex-studios.com/
 #
-# Nous vous serions reconnaissants de laisser cette option activée, car cela n’a aucun impact sur les performances.
-
+# We'd appreciate if you kept this enabled, as this has no impact on your performance.
 enabled: true
 server-uuid: d0c70887-3851-4399-923e-427f80078966

@@ -1,12 +1,12 @@
-# Ceci est le fichier de configuration des commandes Bukkit pour Paper.
+# This is the Bukkit commands configuration file for Paper.
 #
-# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
-# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
 #
-# Référence du fichier : https://docs.papermc.io/paper/reference/bukkit-commands-configuration/
-# Documentation : https://docs.papermc.io/
-# Discord : https://discord.gg/papermc
-# Site web : https://papermc.io/
+# File Reference: https://docs.papermc.io/paper/reference/bukkit-commands-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
 command-block-overrides: []
 ignore-vanilla-permissions: false

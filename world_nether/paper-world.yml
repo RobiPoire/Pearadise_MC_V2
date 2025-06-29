@@ -1,23 +1,21 @@
-# Ceci est un fichier de configuration spécifique au monde pour Paper.
-# Ce fichier peut être vide au départ mais peut contenir des paramètres pour surcharger ceux dans config/paper-world-defaults.yml
-#
-# Pour plus d’informations, voir : https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
-#
-# Monde : world_nether (minecraft:the_nether)
+# This is a world configuration file for Paper.
+# This file may start empty but can be filled with settings to override ones in the config/paper-world-defaults.yml
+# 
+# For more information, see https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
+# 
+# World: world_nether (minecraft:the_nether)
 
 _version: 31
-
 anticheat:
   anti-xray:
-    enabled: true                 # Activation de l’anti-xray (protection contre le x-ray)
-    engine-mode: 1                # Mode moteur de l’anti-xray (1 = mode simple et performant)
-    hidden-blocks:                # Liste des blocs à cacher aux joueurs pour éviter le x-ray
-    - ancient_debris              # Débris anciens (très rare dans le Nether)
-    - nether_gold_ore             # Minerai d’or du Nether
-    - nether_quartz_ore           # Minerai de quartz du Nether
-    lava-obscures: false          # La lave cache-t-elle les blocs ? (false = non)
-    max-block-height: 128         # Hauteur maximale où l’anti-xray s’applique (Y=128)
-    # La liste de blocs de remplacement n’est pas utilisée en mode moteur 1. Modifier cette liste n’a aucun effet.
-    replacement-blocks: []        # Liste vide car inutilisée en engine-mode 1
-    update-radius: 2              # Rayon en blocs autour du joueur où les blocs cachés sont mis à jour
-    use-permission: true          # Si true, l’anti-xray s’applique uniquement aux joueurs sans permission spéciale (ici activé)
+    enabled: true
+    engine-mode: 1
+    hidden-blocks:
+    - ancient_debris
+    - nether_gold_ore
+    - nether_quartz_ore
+    lava-obscures: false
+    max-block-height: 128
+    replacement-blocks: []
+    update-radius: 2
+    use-permission: true

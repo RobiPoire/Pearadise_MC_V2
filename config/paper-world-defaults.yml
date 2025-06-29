@@ -1,17 +1,17 @@
-# Ceci est le fichier de configuration des paramètres par défaut des mondes pour Paper.
-# Comme vous pouvez le voir, il y a beaucoup de choses à configurer. Certaines options peuvent avoir un impact sur le gameplay,
-# donc utilisez-les avec prudence, et assurez-vous de bien comprendre chaque option avant de la modifier.
+# This is the world defaults configuration file for Paper.
+# As you can see, there's a lot to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
 # 
-# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
-# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
 # 
-# Les options de configuration ici s’appliquent à tous les mondes, sauf si vous définissez des remplacements
-# dans le fichier de configuration spécifique à chaque monde (dans le dossier de chaque monde).
+# Configuration options here apply to all worlds, unless you specify overrides inside
+# the world-specific config file inside each world folder.
 # 
-# Référence du fichier : https://docs.papermc.io/paper/reference/world-configuration/
-# Documentation : https://docs.papermc.io/
-# Discord : https://discord.gg/papermc
-# Site web : https://papermc.io/
+# File Reference: https://docs.papermc.io/paper/reference/world-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
 _version: 31
 anticheat:

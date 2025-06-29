@@ -1,17 +1,17 @@
-# Ceci est le fichier de configuration global pour Paper.
-# Comme vous pouvez le voir, il y a beaucoup de choses à configurer. Certaines options peuvent avoir un impact sur le gameplay,
-# donc utilisez-les avec prudence, et assurez-vous de bien comprendre chaque option avant de la modifier.
+# This is the global configuration file for Paper.
+# As you can see, there's a lot to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
 # 
-# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
-# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
 # 
-# Les options de configuration propres aux mondes ont été déplacées
-# dans leur dossier de monde respectif. Les fichiers s'appellent paper-world.yml
+# The world configuration options have been moved inside
+# their respective world folder. The files are named paper-world.yml
 # 
-# Référence du fichier : https://docs.papermc.io/paper/reference/global-configuration/
-# Documentation : https://docs.papermc.io/
-# Discord : https://discord.gg/papermc
-# Site web : https://papermc.io/
+# File Reference: https://docs.papermc.io/paper/reference/global-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
 _version: 29
 anticheat:
@@ -73,7 +73,8 @@ logging:
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
-    connection-throttle: Connexion limitée ! Merci d’attendre un moment avant de te reconnecter.
+    connection-throttle: Connexion limitée ! Merci d’attendre un moment avant de te
+      reconnecter.
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
   no-permission: <red>Désolé, tu n’as pas la permission d’exécuter cette commande.

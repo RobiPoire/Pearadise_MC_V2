@@ -1,18 +1,18 @@
-# Ceci est le fichier de configuration Spigot pour Paper.
-# Comme vous pouvez le voir, il y a énormément de choses à configurer. Certaines options peuvent avoir un impact sur le gameplay,
-# donc utilisez-les avec prudence, et assurez-vous de bien comprendre chaque option avant de la modifier.
+# This is the Spigot configuration file for Paper.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
 #
-# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
-# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or check the docs page.
 #
-# Référence du fichier : https://docs.papermc.io/paper/reference/spigot-configuration/
-# Documentation : https://docs.papermc.io/
-# Discord : https://discord.gg/papermc
-# Site web : https://papermc.io/
-
+# File Reference: https://docs.papermc.io/paper/reference/spigot-configuration/
+# Docs: https://docs.papermc.io/
+# Discord: https://discord.gg/papermc
+# Website: https://papermc.io/
 
 messages:
-  whitelist: Tu n'es pas sur la whitelist ! Contacte @RobiPoire sur Discord pour qu'il t'ajoute.
+  whitelist: Tu n'es pas sur la whitelist ! Contacte @RobiPoire sur Discord pour qu'il
+    t'ajoute.
   unknown-command: Commande inconnue. Tape "/help" pour de l’aide.
   server-full: Le serveur est plein !
   outdated-client: Client obsolète ! Utilise {0}
