@@ -31,6 +31,7 @@ plugins/ImageFrame/upload/
 plugins/LuckPerms/libs/
 plugins/LuckPerms/yaml-storage/actions.txt
 plugins/LuckPerms/yaml-storage/uuidcache.txt
+plugins/LuckPerms/editor-keystore.json
 
 plugins/spark/tmp-client/
 
@@ -46,15 +47,18 @@ world/region/
 world/level.dat
 world/session.lock
 world/uid.dat
+world/level.dat_old
 
 # World the End
 world_the_end/DIM1/
 world_the_end/level.dat
 world_the_end/session.lock
 world_the_end/uid.dat
+world_the_end/level.dat_old
 
 # World Nether
 world_nether/DIM-1/
 world_nether/level.dat
 world_nether/session.lock
 world_nether/uid.dat
+world_nether/level.dat_old
