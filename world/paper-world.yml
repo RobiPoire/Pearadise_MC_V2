@@ -1,0 +1,9 @@
+# Ceci est un fichier de configuration de monde pour Paper.
+# Ce fichier peut être vide au départ mais peut être rempli avec des paramètres
+# pour remplacer ceux du fichier config/paper-world-defaults.yml
+#
+# Pour plus d'informations, voir https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
+#
+# Monde : world (minecraft:overworld)
+
+_version: 31

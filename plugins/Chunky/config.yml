@@ -1,0 +1,9 @@
+# Configuration de Chunky
+# https://github.com/pop4959/Chunky/wiki/Configuration
+
+version: 2
+language: fr
+continue-on-restart: true
+force-load-existing-chunks: false
+silent: false
+update-interval: 1

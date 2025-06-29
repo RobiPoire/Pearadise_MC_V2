@@ -1,0 +1,12 @@
+# Ceci est un fichier de configuration spécifique au monde pour Paper.
+# Ce fichier peut être vide au départ mais peut contenir des paramètres pour surcharger ceux dans config/paper-world-defaults.yml
+#
+# Pour plus d’informations, voir : https://docs.papermc.io/paper/reference/configuration/#per-world-configuration
+#
+# Monde : world_the_end (minecraft:the_end)
+
+_version: 31
+
+anticheat:
+  anti-xray:
+    enabled: false

@@ -1,0 +1,147 @@
+# Configuration de CoreProtect
+
+# CoreProtect est un logiciel basé sur les dons. Obtenez une clé de don sur coreprotect.net/donate/
+donation-key: 
+
+# MySQL est optionnel et non obligatoire.
+# Si vous préférez utiliser MySQL, activez ceci et remplissez les champs.
+use-mysql: false
+table-prefix: co_
+mysql-host: 127.0.0.1
+mysql-port: 3306
+mysql-database: database
+mysql-username: root
+mysql-password: 
+
+# Si modifié, tentera automatiquement de traduire les phrases de langue.
+# Liste des codes langues : https://coreprotect.net/languages/
+language: fr
+
+# Si activé, CoreProtect vérifiera les mises à jour au démarrage du serveur.
+# Si une mise à jour est disponible, vous en serez informé via la console du serveur.
+check-updates: false
+
+# Si activé, d’autres plugins pourront utiliser l’API CoreProtect.
+api-enabled: true
+
+# Si activé, des données supplémentaires sont affichées lors des rollbacks et restaurations.
+# Peut être déclenché manuellement en ajoutant "#verbose" à la commande de rollback.
+verbose: true
+
+# Si aucun rayon n’est spécifié dans un rollback ou restore, cette valeur sera utilisée.
+# Mettre à 0 pour désactiver l’ajout automatique d’un rayon.
+default-radius: 10
+
+# Le rayon maximal utilisable dans une commande. Mettre à 0 pour désactiver.
+# Pour un rollback ou restore sans rayon, utilisez "r:#global".
+max-radius: 100
+
+# Si activé, les objets pris dans les conteneurs seront inclus dans les rollbacks.
+rollback-items: true
+
+# Si activé, les entités comme les animaux tués seront inclus dans les rollbacks.
+rollback-entities: true
+
+# Si activé, les données génériques comme les zombies brûlant en plein jour ne seront pas enregistrées.
+skip-generic-data: true
+
+# Enregistre les blocs placés par les joueurs.
+block-place: true
+
+# Enregistre les blocs cassés par les joueurs.
+block-break: true
+
+# Enregistre les blocs qui se détachent d’autres blocs (ex : un panneau ou une torche qui tombe d’un bloc de terre cassé).
+# Nécessaire pour que les lits/portes puissent être restaurés correctement.
+natural-break: true
+
+# Suit correctement les mouvements de blocs, comme le sable ou le gravier qui tombent.
+block-movement: true
+
+# Suit correctement les blocs déplacés par les pistons.
+pistons: true
+
+# Enregistre les blocs détruits par le feu.
+block-burn: true
+
+# Enregistre quand un bloc s’enflamme naturellement, par exemple par propagation du feu.
+block-ignite: true
+
+# Enregistre les explosions, comme TNT et Creepers.
+explosions: true
+
+# Suit quand une entité modifie un bloc, par exemple un Enderman qui détruit des blocs.
+entity-change: true
+
+# Enregistre les entités tuées, comme les vaches ou endermen tués.
+entity-kills: true
+
+# Enregistre le texte sur les panneaux. Si désactivé, les panneaux seront vides après rollback.
+sign-text: true
+
+# Enregistre les sources de lave et d’eau placées/enlevées par les joueurs avec des seaux.
+buckets: true
+
+# Enregistre la décomposition naturelle des feuilles d’arbre.
+leaf-decay: true
+
+# Enregistre la croissance des arbres. Les arbres sont liés au joueur qui a planté la pousse.
+tree-growth: true
+
+# Enregistre la croissance des champignons.
+mushroom-growth: true
+
+# Enregistre la croissance naturelle des vignes.
+vine-growth: true
+
+# Enregistre la propagation des blocs sculk depuis les catalyseurs sculk.
+sculk-spread: true
+
+# Enregistre la génération naturelle des portails comme les portails du Nether.
+portals: true
+
+# Enregistre le flux d’eau. Si l’eau détruit d’autres blocs comme des torches,
+# cela permet une restauration correcte.
+water-flow: true
+
+# Enregistre le flux de lave. Si la lave détruit d’autres blocs comme des torches,
+# cela permet une restauration correcte.
+lava-flow: true
+
+# Permet de suivre les liquides et de les relier aux joueurs.
+# Par exemple, si un joueur place de l’eau qui coule et détruit des torches,
+# tout pourra être restauré correctement en annulant les actions de ce joueur uniquement.
+liquid-tracking: true
+
+# Suit les transactions d’objets, comme lorsqu’un joueur prend des objets
+# dans un coffre, un four ou un distributeur.
+item-transactions: true
+
+# Enregistre les objets lâchés par les joueurs.
+item-drops: true
+
+# Enregistre les objets ramassés par les joueurs.
+item-pickups: true
+
+# Suit toutes les transactions des entonnoirs (hopper), comme lorsqu’un entonnoir retire des objets
+# d’un coffre, four ou distributeur.
+hopper-transactions: true
+
+# Suit les interactions des joueurs, comme lorsqu’un joueur ouvre une porte, appuie sur un bouton
+# ou ouvre un coffre. Ces interactions ne peuvent pas être annulées.
+player-interactions: true
+
+# Enregistre les messages envoyés par les joueurs dans le chat.
+player-messages: true
+
+# Enregistre toutes les commandes utilisées par les joueurs.
+player-commands: true
+
+# Enregistre les connexions et déconnexions des joueurs.
+player-sessions: true
+
+# Enregistre les changements de pseudo Minecraft des joueurs.
+username-changes: true
+
+# Enregistre les modifications faites via le plugin "WorldEdit" s’il est utilisé sur votre serveur.
+worldedit: true

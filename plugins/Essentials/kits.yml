@@ -1,0 +1,19 @@
+# Configuration des kits pour EssentialsX.
+# Si aucun kit n’est défini dans ce fichier, le plugin tentera de les copier depuis le fichier 'config.yml'.
+
+# Tous les objets DOIVENT être suivis d’une quantité.
+# Les noms des kits doivent être en minuscules et seront considérés comme tels pour les permissions et les coûts.
+# Syntaxe : - objet[:durabilité] quantité [enchantement:niveau]... [itemmeta:valeur]...
+# Pour des informations détaillées sur les métadonnées des objets, visitez : https://wiki.ess3.net/wiki/Item_Meta
+#
+# Pour qu’un kit exécute une commande, ajoutez '/<commande>' à la liste des objets. Utilisez {USERNAME} pour faire référence au joueur recevant le kit.
+# Utilisez {PLAYER} pour afficher le nom d’affichage du joueur à la place du nom d’utilisateur.
+# 'delay' fait référence au temps d’attente entre deux utilisations d’un même kit, en secondes. Mettez -1 pour un kit à usage unique.
+#
+# Vous pouvez également organiser les kits dans des fichiers séparés dans le sous-dossier 'kits'.
+# Essentials considérera tous les fichiers '.yml' dans ce sous-dossier comme des fichiers de kits valides et les ajoutera en plus de ceux définis ici.
+# Chaque fichier dans le sous-dossier 'kits' doit être formaté de la même manière que ce fichier.
+#
+# Pour plus d’informations, consultez : https://wiki.ess3.net/wiki/Kits
+
+kits:

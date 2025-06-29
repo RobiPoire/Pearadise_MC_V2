@@ -1,0 +1,43 @@
+# Ceci est le fichier de configuration Bukkit dans Paper.
+# Comme vous pouvez le voir, il n'y a en réalité pas grand-chose à configurer sans plugins.
+#
+# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
+# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+#
+# Référence du fichier : https://docs.papermc.io/paper/reference/bukkit-configuration/
+# Documentation : https://docs.papermc.io/
+# Discord : https://discord.gg/papermc
+# Site web : https://papermc.io/
+
+settings:
+  allow-end: false
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4000
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Le serveur a été fermé
+  minimum-api: none
+  use-map-color-cache: true
+spawn-limits:
+  monsters: 150
+  animals: 100
+  water-animals: 30
+  water-ambient: 50
+  water-underground-creature: 20
+  axolotls: 20
+  ambient: 10
+chunk-gc:
+  period-in-ticks: 600
+ticks-per:
+  animal-spawns: 200
+  monster-spawns: 10
+  water-spawns: 20
+  water-ambient-spawns: 20
+  water-underground-creature-spawns: 20
+  axolotl-spawns: 20
+  ambient-spawns: 20
+  autosave: 6000
+aliases: now-in-commands.yml

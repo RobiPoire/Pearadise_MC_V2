@@ -1,0 +1,125 @@
+prefix: '&#FF00FF&lAxGraves &7» '
+
+# Combien de temps les tombes doivent-elles disparaître ?
+# Réglez sur -1 pour faire durer les tombes jusqu'au prochain redémarrage du serveur
+# en secondes
+despawn-time-seconds: 1800
+
+# Les tombes doivent-elles laisser tomber tous les objets au sol lorsqu'elles expirent ?
+# si faux : les objets seront supprimés
+drop-items: true
+
+# Si drop-items est vrai, les objets laissés tomber doivent-ils avoir une vélocité ? (doivent-ils voler autour lorsqu'ils sont laissés tomber ou rester dans un bloc ?)
+dropped-item-velocity: false
+
+# Les joueurs doivent-ils avoir la capacité de prendre tous les objets d'un coffre de mort en faisant un clic droit en maintenant shift ?
+enable-instant-pickup: true
+
+# Ne fonctionne que si enable-instant-pickup est vrai
+# Cela fait que seul le propriétaire de la tombe pourra la ramasser instantanément
+instant-pickup-only-own: true
+
+# Vous devriez désactiver ceci si vous voulez que keep-inventory fonctionne
+override-keep-inventory: true
+
+# À quelle hauteur les hologrammes de tombe doivent-ils apparaître ?
+# Ne s'applique qu'aux nouvelles tombes
+hologram-height: 0.75
+
+# À quelle hauteur la tête du joueur doit-elle être ?
+# Dans certaines versions, sur certains clients, les têtes peuvent apparaître buggées dans le sol
+# Utilisez cette option OU le paramètre hologram-y de ViaVersion pour le corriger
+# Ne s'applique qu'aux nouvelles tombes
+head-height: -1.2
+
+# Mondes où les tombes n'apparaîtront pas
+# Ceci est sensible à la casse
+disabled-worlds:
+# - blacklisted_world
+
+# vrai : la tête peut faire face dans toutes les 360 directions
+# faux : la tête ne peut faire face que dans 4 directions (nord, est, sud, ouest)
+rotate-head-360: true
+
+# La tête doit-elle tourner
+auto-rotation:
+  enabled: false
+  speed: 10.0
+
+# vrai : seule la personne qui est morte et les personnes avec axgraves.admin peuvent ouvrir la tombe
+# faux : tout le monde peut ouvrir la tombe
+interact-only-own: false
+
+# Le joueur doit-il perdre de l'expérience à la mort ?
+# Ceci est un pourcentage, donc 0.5 serait 50 % d'expérience
+xp-keep-percentage: 1.0
+
+# Le plugin doit-il stocker l'expérience dans les tombes ?
+# Si désactivé, l'expérience sera laissée tomber au sol
+store-xp: true
+
+# Dans quel ordre les objets doivent-ils être placés dans la tombe ?
+# Tous les autres objets seront placés APRÈS ceux-ci
+# Valeurs : ARMOR, HAND, OFFHAND
+grave-item-order:
+- ARMOR
+- HAND
+- OFFHAND
+
+# Les parties d'armure doivent-elles être équipées automatiquement ?
+auto-equip-armor: true
+
+# Combien de tombes un seul joueur peut-il avoir en même temps ?
+# Si la limite est atteinte, la première tombe sera supprimée
+# Réglez sur -1 pour désactiver
+# Vous pouvez outrepasser ceci en donnant aux joueurs les permissions axgraves.limit.<quantité>
+grave-limit: 5
+
+# Par défaut, chaque tombe utilisera le crâne du joueur
+# Avec ce paramètre, vous pouvez le remplacer
+custom-grave-skull:
+  enabled: false
+  base64: ''
+
+# Vous pouvez ajouter autant de mondes que vous le souhaitez
+# Si vous ne définissez pas un monde, le plugin utilisera les limites de monde par défaut de la dimension
+spawn-height-limits:
+  world:
+    min: -64
+    max: 319
+  world_nether:
+    min: 0
+    max: 319
+  world_the_end:
+    min: 0
+    max: 319
+
+# Si les joueurs meurent de l'une des causes suivantes, aucune tombe ne sera créée
+# Liste des valeurs valides : https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+# Sensible à la casse
+blacklisted-death-causes:
+#- EXEMPLE_DE_CAUSE_DE_MORT
+
+# La tombe doit-elle disparaître lorsque tous les objets sont retirés ?
+despawn-when-empty: true
+
+save-graves:
+  # Les tombes doivent-elles être sauvegardées si le serveur s'arrête ?
+  enabled: true
+  # À quelle fréquence les tombes doivent-elles être sauvegardées ?
+  # Réglez sur -1 pour ne sauvegarder qu'à l'arrêt (cela peut ne pas sauvegarder en cas de crash)
+  auto-save-seconds: 30
+
+# Objets qui seront supprimés à la mort et qui n'apparaîtront pas dans les tombes
+blacklisted-items:
+
+# Le plugin doit-il vous notifier s'il y a une nouvelle mise à jour ?
+update-notifier:
+  # Si activé, il affichera le message dans la console
+  enabled: true
+  # Si activé, il diffusera le message de mise à jour à tous les joueurs qui ont la permission <nom-du-plugin>.update-notify
+  on-join: true
+
+# Ne pas modifier
+version: 15
+

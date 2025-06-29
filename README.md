@@ -32,7 +32,6 @@
 | EssentialsXDiscord   | 2.21.2-dev+11  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | ImageFrame           | 1.8.3          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms            | 5.5.8          | [luckperms.net](https://luckperms.net/download)                      |
-| VaultUnlocked        | 2.12.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit            | 7.3.15-beta-01 | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 | XaeroForceDisabler   | 1.3            | [Modrinth](https://modrinth.com/plugin/drqads-xaero-force-disabler)   |
 

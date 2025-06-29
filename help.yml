@@ -1,0 +1,64 @@
+# Ceci est le fichier de configuration de l’aide Bukkit pour Paper.
+#
+# Par défaut, vous n'avez pas besoin de modifier ce fichier. Les sujets d’aide pour toutes les commandes des plugins sont automatiquement
+# fournis ou extraits à partir des plugins installés. Vous ne devez modifier ce fichier que si vous souhaitez ajouter de nouvelles pages d’aide
+# à votre serveur ou remplacer les pages d’aide des commandes des plugins existants.
+#
+# Ce fichier est divisé en plusieurs parties :
+# -- general-topics : liste les sujets d’aide définis par l’administrateur
+# -- index-topics   : liste les index d’aide définis par l’administrateur
+# -- amend-topics   : liste les modifications à appliquer aux sujets d’aide existants
+# -- ignore-plugins : liste les plugins à exclure de l’aide
+#
+# Des exemples sont donnés ci-dessous. Lorsqu’on modifie un sujet de commande, la chaîne <text> sera remplacée
+# par la valeur existante dans le sujet d’aide. Des codes couleur peuvent être utilisés dans le texte. Le caractère de couleur est & suivi d’un chiffre ou d’une lettre de 0 à F.
+# ================================================================
+#
+# Mettez cette option sur true pour afficher les sujets d’aide des commandes individuelles dans l’index principal de l’aide.
+# command-topics-in-master-index: true
+#
+# Chaque sujet général apparaîtra comme un sujet séparé dans l’index d’aide, avec les sujets des commandes des plugins.
+# general-topics:
+#     Rules:
+#         shortText: Règles du serveur
+#         fullText: |
+#             &61. Soyez bienveillant avec les autres joueurs.
+#             &B2. Pas de grief.
+#             &D3. Pas d’insultes.
+#         permission: topics.rules
+#
+# Chaque sujet d’index apparaîtra comme un sous-index séparé dans l’index d’aide, avec les sujets des commandes des plugins.
+# Pour remplacer l’index d’aide par défaut (celui affiché quand l’utilisateur fait /help), nommez le sujet d’index "Default".
+# index-topics:
+#     Ban Commands:
+#         shortText: Commandes de bannissement de joueur
+#         preamble: Modérateur - n’abusez pas de ces commandes
+#         permission: op
+#         commands:
+#             - /ban
+#             - /ban-ip
+#             - /banlist
+#
+# Les modifications de sujet servent à changer le contenu des sujets d’aide générés automatiquement pour les commandes des plugins.
+# amended-topics:
+#     /stop:
+#         shortText: Arrête brutalement le serveur !
+#         fullText: <text> - Cela tue le serveur.
+#         permission: you.dont.have
+#
+# Tout plugin dans la liste des plugins ignorés sera exclu de l’aide. Le nom doit correspondre à celui affiché
+# par la commande /plugins. Ignorez "Bukkit" pour retirer les commandes Bukkit standard de l’index. Ignorez "All"
+# pour désactiver complètement la génération automatique des sujets d’aide.
+# ignore-plugins:
+#    - PluginNameOne
+#    - PluginNameTwo
+#    - PluginNameThree
+#
+# Si vous avez besoin d’aide pour la configuration ou si vous avez des questions concernant Paper,
+# rejoignez-nous sur notre Discord ou consultez la page de documentation.
+#
+# Référence du fichier : https://docs.papermc.io/paper/reference/bukkit-help-configuration/
+# Documentation : https://docs.papermc.io/
+# Discord : https://discord.gg/papermc
+
+{}

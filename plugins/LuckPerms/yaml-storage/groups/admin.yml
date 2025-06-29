@@ -1,0 +1,4 @@
+name: admin
+permissions:
+- worldedit.*
+- weight.10

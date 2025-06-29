@@ -1,0 +1,6 @@
+# Configuration de la commande de téléportation aléatoire.
+# Certains paramètres peuvent être définis par défaut et modifiés via la commande '/settpr' en jeu.
+
+default-location: '{world}'
+excluded-biomes:
+

@@ -1,0 +1,6 @@
+# Définit la valeur des objets sur le serveur.
+# Les objets non listés ici ne peuvent pas être vendus.
+# Mettre la valeur à 0 permet de vendre les objets gratuitement ; mettre à -1 ou supprimer l’objet désactive la vente.
+# Les prix peuvent être définis dans ce fichier ou via la commande '/setworth' en jeu.
+
+worth:

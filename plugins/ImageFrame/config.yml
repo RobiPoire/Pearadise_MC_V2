@@ -1,0 +1,193 @@
+Messages:
+  Reloaded: '&eImageFrame a été rechargé !'
+  ImageMapProcessing: '&eImageMap est en cours de traitement, veuillez patienter !'
+  # Laisser vide ("") pour désactiver le message de la barre d'action
+  ImageMapProcessingActionBar: '&eImageMap &a{Name} &eest en cours de traitement{Dots}'
+  # Laisser vide ("") pour désactiver le message de la barre d'action
+  ImageMapQueuedActionBar: '&7ImageMap &a{Name} &eest actuellement en file d''attente ({Position} restant)'
+  ImageMapCreated: '&aImageMap a été créé !'
+  ImageMapRefreshed: '&aImageMap a été rafraîchi !'
+  ImageMapDeleted: '&eImageMap a été supprimé !'
+  ImageMapRenamed: '&aImageMap a été renommé !'
+  ImageMapTogglePaused: '&aBasculé la pause de la lecture de l''ImageMap !'
+  ImageMapPlaybackJumpTo: '&aPassé à la position à {Seconds} secondes !'
+  ImageMapPlayerPurge: '&ePurgé {Amount} ImageMaps appartenant à {CreatorName} ({CreatorUUID}) - [{ImageMapNames}]'
+  SetCreator: '&aCréateur de l''ImageMap avec l''id {ImageID} défini sur {CreatorName} ({CreatorUUID})'
+  InvalidOverlayMap: '&cL''overlay ne fonctionne que sur les cartes Vanilla Minecraft et sans doublons dans la sélection !'
+  ImageMapAlreadyQueued: '&cVous avez déjà un autre ImageMap en file d''attente et en traitement, veuillez patienter !'
+  UnableToLoadMap: '&cImageMap ne peut pas être chargé, il y a un problème lors de la lecture de l''image. Contactez les administrateurs du serveur pour vérifier la console du serveur pour plus d''informations.'
+  UnableToChangeImageType: '&cChanger le type d''image n''est actuellement pas supporté. Veuillez créer une nouvelle carte image à la place.'
+  UnknownError: '&cUne erreur inconnue est survenue.'
+  ImageOverMaxFileSize: '&cImageMap ne peut pas être chargé car il dépasse la taille maximale de fichier autorisée. ({Size} octets)'
+  NotAnImageMap: '&cCe n''est pas un ImageMap'
+  UploadLink: '&aOuvrez {URL} dans votre navigateur pour télécharger une image, il est valide pendant 5 minutes.'
+  UploadExpired: '&cLe lien de téléchargement de l''image a expiré, veuillez en créer un nouveau.'
+  URLImageMapInfo:
+    - '&bImageID: {ImageID}'
+    - '&aNom: {Name}'
+    - '&eTaille de la carte: {Width} x {Height}'
+    - '&6Dithering: {DitheringType}'
+    - '&dCréateur: {CreatorName} ({CreatorUUID})'
+    - '&fAccès: {Access}'
+    - '&aHeure de création: {TimeCreated}'
+    - '&bMarqueurs: {Markers}'
+    - '&eURL: {URL}'
+  NoPermission: '&cVous n''avez pas la permission de faire cela !'
+  NoConsole: '&cCette commande ne peut être exécutée que par les joueurs !'
+  PlayerNotFound: '&cCe joueur est introuvable !'
+  InvalidUsage: '&cUtilisation invalide !'
+  NotEnoughMaps: '&cVous n''avez pas {Amount} cartes !'
+  Oversize: '&cC''est trop grand ! La taille maximale pour une carte est {MaxSize}'
+  URLRestricted: '&cCette URL est restreinte et ne peut pas être utilisée pour créer des cartes images.'
+  PlayerCreationLimitReached: '&cVous ne pouvez créer que {Limit} cartes à la fois ! Supprimez-en certaines pour en créer de nouvelles'
+  DuplicateMapName: '&cVous avez déjà créé une carte image avec ce nom !'
+  MapLookup: '&bListe des cartes images par {CreatorName} ({CreatorUUID}) :'
+  ItemFrameOccupied: '&cÉchec du placement ou du retrait de certaines cartes sur l''ItemFrame sélectionné, elles sont soit détruites, remplacées, occupées ou protégées.'
+  NotEnoughSpace: '&cImpossible de placer la carte ImageMap combinée car il n''y a pas assez de place.'
+  InvalidImageMap: '&cCette carte image a probablement déjà été supprimée.'
+  GivenInvisibleFrame: '&aDonné {Amount} cadres d''objets invisibles à {Player}.'
+  AccessPermission:
+    Updated: '&aAccès mis à jour pour {PlayerName} ({PlayerUUID}), ils ont maintenant la permission {Permission}.'
+    Types:
+      NONE: AUCUN
+      GET: OBTENIR
+      MARKER: MARQUEUR
+      EDIT: MODIFIER
+      EDIT_CLONE: MODIFIER AVEC CLONE
+      ALL: TOUT
+  Selection:
+    Begin: '&bFaites un clic droit sur un Item Frame pour sélectionner les coins 1 et 2'
+    Clear: '&eQuitter le mode de sélection'
+    Corner1: '&aCoin 1 de l''Item Frame sélectionné'
+    Corner2: '&aCoin 2 de l''Item Frame sélectionné'
+    Invalid: '&cSélection invalide !'
+    Oversize: '&cSélection trop grande ! La taille maximale pour une carte est {MaxSize}'
+    Success: '&a{Width} x {Height} Item Frames sélectionnés ! &eSi l''un d''eux est supprimé/remplacé, vous devrez les sélectionner à nouveau.'
+    NoSelection: '&cVous n''avez pas encore de sélection valide.'
+    IncorrectSize: '&cLa taille de votre sélection ne correspond pas, {Width} x {Height} requis.'
+  Markers:
+    AddBegin: '&aFaites un clic droit sur un Item Frame contenant la carte "{Name}" pour placer le marqueur ! &bExécutez "/imageframe marker cancel" pour annuler le placement'
+    AddConfirm: '&aMarqueur placé !'
+    Remove: '&eMarqueur supprimé !'
+    Clear: '&eMarqueurs effacés !'
+    Cancel: '&ePlacement du marqueur annulé !'
+    DuplicateName: '&cIl y a déjà un marqueur avec ce nom !'
+    NotAMarker: '&cCe n''est pas un marqueur valide'
+    NotRenderOnFrameWarning: '&eAvertissement : Ce type de marqueur ne se rend pas sur les Item Frames !'
+    LimitReached: '&cVous ne pouvez créer que {Limit} marqueurs sur une carte !'
+  # Format de date utilisé pour les variables basées sur le temps
+  DateFormat: dd/MM/yyyy HH:mm:ss zzz
+  Preferences:
+    Keys:
+      VIEW_ANIMATED_MAPS: Voir les cartes animées
+    Values:
+      'TRUE': '&aActivé'
+      'FALSE': '&cDésactivé'
+      UNSET: '&7Non défini'
+    UpdateMessage: '&eLa préférence du joueur {Preference}&e a été mise à jour à {Value}&e !'
+
+Settings:
+  MapItemFormat: '&f{Name} &7({X}, {Y})'
+  # Indique si des cartes vides sont nécessaires pour créer des image maps hors mode créatif
+  RequireEmptyMaps: true
+  # Taille maximale d’une image map
+  MaxSize: 100
+  # Quand activé, seules les URLs des sites listés ci-dessous sont autorisées pour les cartes en jeu
+  RestrictImageUrl:
+    Enabled: false
+    Whitelist:
+      - https://i.imgur.com
+      - http://i.imgur.com
+      - https://storage.googleapis.com
+      - http://storage.googleapis.com
+      - https://cdn.discordapp.com
+      - http://cdn.discordapp.com
+      - https://media.discordapp.net
+      - http://media.discordapp.net
+      - https://textures.minecraft.net
+      - http://textures.minecraft.net
+  # Si l’image est plus grande que cette taille, elle ne sera pas téléchargée pour l’aperçu
+  # (En octets)
+  MaxImageFileSize: 52428800
+  # Si une image prend plus de ce temps à charger, elle sera rejetée
+  # (En secondes)
+  MaxProcessingTime: 60
+  # Nombre d’images à traiter en parallèle
+  # Modifier cette option nécessite un redémarrage du serveur
+  ParallelProcessingLimit: 1
+  # Nombre maximum de cartes images qu’un joueur dans les groupes suivants peut créer
+  # Mettre -1 pour illimité
+  # Pour ajouter un joueur à un groupe, donnez la permission "imageframe.createlimit.<groupe>"
+  # Exemple "imageframe.createlimit.vip"
+  # Les joueurs sans groupe sont traités comme "default" sauf s’ils ont "imageframe.createlimit.unlimited"
+  PlayerCreationLimit:
+    default: 10
+    vip: 15
+    moderator: 20
+  # Nombre maximum de marqueurs sur une carte individuelle
+  MapMarkerLimit: 20
+  CombinedMapItem:
+    Name: '&bImageMap &f- &f{Name} &7({Width} x {Height})'
+    Lore:
+      - '&aClic droit sur les Item Frames de taille {Width} x {Height} pour placer l''ImageMap'
+      - ''
+      - '&7ImageID: {ImageID}'
+      - '&7Créateur: {CreatorName} ({CreatorUUID})'
+      - '&7Heure de création: {TimeCreated}'
+  # Combien de paquets de carte peuvent être envoyés à un joueur en 1/20ème de seconde
+  # Vous pouvez réduire ce nombre en cas de problèmes réseau
+  # Mais les cartes peuvent mettre plus de temps à s’afficher chez le joueur
+  # Pour désactiver la limite, mettez -1
+  MapPacketSendingRateLimit: -1
+  # Exempter certains IDs de carte de la suppression si leur ImageFrame est supprimé
+  # Valeurs possibles : ids simples ("13") ou plages inclusives ("10-13")
+  ExemptMapIdsFromDeletion:
+    - '-1'
+  # Option utile principalement pour les développeurs ou utilisateurs avancés
+  MapRenderersContextual: false
+  # Modifier cette option nécessite un redémarrage
+  HandleAnimatedMapsOnMainThread: false
+  SendAnimatedMapsOnMainThread: false
+  # Modes valides : "DYNAMIC" et "MANUAL_PERSISTENT"
+  # DYNAMIC : charge et décharge le cache d’images selon la visualisation par les joueurs
+  # Peut utiliser plus de CPU et causer un léger délai d’affichage
+  # MANUAL_PERSISTENT : le cache d’images reste chargé depuis le démarrage du serveur
+  # Peut utiliser plus de mémoire
+  # Modifier cette option nécessite un redémarrage
+  CacheControlMode: MANUAL_PERSISTENT
+  # Mettre à true si vous avez des données corrompues de carte taille 0 dans le dossier du monde (pas dans celui du plugin)
+  # Mettre à false si les entrées/sorties fichier de votre système sont lentes
+  TryDeleteBlankMapFiles: false
+
+# Système d’upload pratique d’ImageFrame via un serveur web intégré
+UploadService:
+  # Modifier cette valeur nécessite un redémarrage
+  Enabled: true
+  # URL affichée à l’utilisateur final (à changer dans la config)
+  DisplayURL: http://change.this.to.your.server.ip.in.the.config
+  WebServer:
+    # Adresse liée au serveur web, défaut 0.0.0.0
+    # Utiliser 127.0.0.1 pour limiter l’accès local
+    # Modifier cette valeur nécessite un redémarrage
+    Host: 0.0.0.0
+    # Port du serveur web, vérifier qu’il n’est pas bloqué par le pare-feu
+    # Modifier cette valeur nécessite un redémarrage
+    Port: 8517
+
+# Méthode "survie" intégrée pour fabriquer des cadres d’objets invisibles
+InvisibleFrame:
+  # Façon survie d’obtenir des cadres invisibles en splashant des items avec des potions d’invisibilité
+  # Mettre -1 pour illimité
+  # Mettre 0 pour désactiver
+  MaxConversionsPerSplash: 8
+  # Les cadres d’objets vides invisibles doivent-ils briller ?
+  # Les cadres existants ne sont mis à jour qu’à l’interaction
+  GlowEmptyFrames: true
+
+Hooks:
+  ViaVersion:
+    # Activer si vos joueurs en dessous de la version 1.13 ont des soucis réseau
+    DisableSmoothAnimationForLegacyPlayers: false
+
+# Activer les notifications de mise à jour pour les admins
+Updater: true
