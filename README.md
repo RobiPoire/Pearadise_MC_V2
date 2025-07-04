@@ -19,20 +19,21 @@
 ### Plateforme
 | Nom     | Version   | Lien                                             |
 | ------- | --------- | ------------------------------------------------ |
-| PaperMC | 1.21.6-47 | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC | 1.21.7-16 | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### Plugins 
 | Nom                  | Version        | Lien                                                                  |
 | -------------------- | -------------- | --------------------------------------------------------------------- |
-| AxGraves             | 1.22.1         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
+| AxGraves             | 1.22.2         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
 | Chunky               | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
 | CoreProtect          | 22.4           | [Github](https://github.com/PlayPro/CoreProtect)                      |
-| EssentialsX          | 2.21.2-dev+11  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXChat      | 2.21.2-dev+11  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXDiscord   | 2.21.2-dev+11  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| ImageFrame           | 1.8.3          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
-| LuckPerms            | 5.5.8          | [luckperms.net](https://luckperms.net/download)                      |
-| WorldEdit            | 7.3.15-beta-01 | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
+| EssentialsX          | 2.21.2-dev+21  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXChat      | 2.21.2-dev+21  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXDiscord   | 2.21.2-dev+21  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| ImageFrame           | 1.8.4          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
+| LuckPerms            | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
+| VaultUnlocked        | 2.13.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
+| WorldEdit            | 7.3.15-beta-02 | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 | XaeroForceDisabler   | 1.3            | [Modrinth](https://modrinth.com/plugin/drqads-xaero-force-disabler)   |
 
 ### Datapacks 
@@ -52,7 +53,7 @@
 | Explorify                             | 1.6.2    | [Modrinth](https://modrinth.com/datapack/explorify)                                              |
 | Hopo Better Underwater Ruins          | 1.2.4    | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
 | Structory                             | 1.3.11   | [Modrinth](https://modrinth.com/datapack/structory)                                              |
-| Terralith                             | 2.5.10   | [Modrinth](https://modrinth.com/datapack/terralith)                                              |
+| Terralith                             | 2.5.11   | [Modrinth](https://modrinth.com/datapack/terralith)                                              |
 | Terratonic                            | 3.0      | [Modrinth](https://modrinth.com/datapack/terratonic)                                             |
 | Tool Trims                            | 2.3.3a   | [Modrinth](https://modrinth.com/datapack/tool-trims)                                             |
 | True Ending - Ender Dragon Overhaul   | 1.1.4b   | [Modrinth](https://modrinth.com/datapack/true-ending)                                            |

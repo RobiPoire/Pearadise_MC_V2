@@ -88,6 +88,7 @@ misc:
   compression-level: 2
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
+  prevent-negative-villager-demand: false
   region-file-cache-size: 256
   send-full-pos-for-item-entities: false
   strict-advancement-dimension-check: false
