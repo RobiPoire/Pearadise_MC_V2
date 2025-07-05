@@ -23,54 +23,33 @@ plugins/Chunky/tasks/
 plugins/CoreProtect/database.db
 plugins/CoreProtect/.license
 
-plugins/Essentials/usermap.bin
-plugins/Essentials/uuids.bin
-plugins/Essentials/userdata/
-plugins/ImageFrame/players/
+plugins/Essentials/*
+!plugins/Essentials/*.yml
+!plugins/Essentials/*.json
 
-plugins/ImageFrame/data/
-plugins/ImageFrame/upload/
+plugins/ImageFrame/*
+!plugins/ImageFrame/config.json
 
 plugins/LuckPerms/libs/
-plugins/LuckPerms/yaml-storage/actions.txt
-plugins/LuckPerms/yaml-storage/uuidcache.txt
+plugins/LuckPerms/yaml-storage/*.txt
 plugins/LuckPerms/editor-keystore.json
 
-plugins/spark/tmp-client/
+plugins/spark/*
+!plugins/spark/config.json
 
 plugins/WorldEdit/*/
 
 # World
-world/data/chunks.dat
-world/data/command_storage_true_ending.dat
-world/data/command_storage_vanilla_refresh.dat
-world/data/idcounts.dat
-world/data/map_0.dat
-world/data/raids.dat
-world/data/random_sequences.dat
-world/data/scoreboard.dat
-world/datapacks/bukkit/
-world/entities/
-world/playerdata/
-world/poi/
-world/region/
-world/advancements/
-world/stats/
-world/level.dat
-world/session.lock
-world/uid.dat
-world/level.dat_old
+world/*
+!world/data/command_storage_vanilla_refresh_config.dat
+!world/datapacks/*.zip
+!world/paper-world.yml
 
 # World the End
-world_the_end/DIM1/
-world_the_end/level.dat
-world_the_end/session.lock
-world_the_end/uid.dat
-world_the_end/level.dat_old
+world_the_end/
+!world_the_end/paper-world.yml
 
 # World Nether
-world_nether/DIM-1/
-world_nether/level.dat
-world_nether/session.lock
-world_nether/uid.dat
-world_nether/level.dat_old
+world_nether/*
+!world_nether/paper-world.yml
+
