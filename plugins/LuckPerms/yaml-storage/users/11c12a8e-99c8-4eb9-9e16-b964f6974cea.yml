@@ -1,0 +1,6 @@
+uuid: 11c12a8e-99c8-4eb9-9e16-b964f6974cea
+name: Zazzizou
+primary-group: default
+parents:
+- default
+- gorosei

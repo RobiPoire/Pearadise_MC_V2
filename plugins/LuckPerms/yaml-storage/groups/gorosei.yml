@@ -1,0 +1,16 @@
+name: gorosei
+permissions:
+- coreprotect.*
+- essentials.ban
+- essentials.banip
+- essentials.kick
+- essentials.kickall
+- essentials.mute
+- essentials.nick
+- essentials.socialspy
+- essentials.tempban
+- essentials.tempbanip
+- essentials.unban
+- essentials.unbanip
+- minecraft.command.whitelist
+- weight.5

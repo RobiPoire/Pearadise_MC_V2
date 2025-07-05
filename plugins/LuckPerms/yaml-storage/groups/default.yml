@@ -14,8 +14,11 @@ permissions:
     value: false
 - minecraft.command.*:
     value: false
+- coreprotect.*:
+    value: false
 - worldedit.*:
     value: false
+- bukkit.command.tps
 - essentials.afk:
     value: false
 - essentials.afk.auto:
@@ -519,7 +522,8 @@ permissions:
 - essentials.rest.others:
     value: false
 - essentials.rtoggle
-- essentials.rules
+- essentials.rules:
+    value: false
 - essentials.seen:
     value: false
 - essentials.seen.alts:
@@ -872,3 +876,4 @@ permissions:
 - imageframe.get
 - imageframe.overlay
 - minecraft.command.trigger
+- weight.1
