@@ -41,7 +41,14 @@ plugins/spark/tmp-client/
 plugins/WorldEdit/*/
 
 # World
-world/data/
+world/data/chunks.dat
+world/data/command_storage_true_ending.dat
+world/data/command_storage_vanilla_refresh.dat
+world/data/idcounts.dat
+world/data/map_0.dat
+world/data/raids.dat
+world/data/random_sequences.dat
+world/data/scoreboard.dat
 world/datapacks/bukkit/
 world/entities/
 world/playerdata/
