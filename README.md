@@ -61,9 +61,9 @@
 | AxGraves              | 1.22.2         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
 | Chunky                | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
-| EssentialsX           | 2.21.2-dev+21  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXChat       | 2.21.2-dev+21  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXDiscord    | 2.21.2-dev+21  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsX           | 2.21.2-dev+22  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXChat       | 2.21.2-dev+22  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXDiscord    | 2.21.2-dev+22  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | ImageFrame            | 1.8.4          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
 | VaultUnlocked         | 2.13.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
