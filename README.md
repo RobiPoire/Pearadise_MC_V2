@@ -42,8 +42,7 @@
 
 > ℹ️ **Note** :  
 > - Ces commandes sont accessibles aux joueurs sans permissions d’administration.  
-> - Vous devez avoir au moins une carte vide dans l’inventaire pour `create`, `overlay` et `get`.  
-> - Pour placer directement l’image dans plusieurs cadres, commencez par `/imageframe select` avant `create`, `get` ou `overlay`.  
+> - Vous devez avoir au moins une carte vide dans l’inventaire pour `create`, `overlay` et `get`.   
 
 ---
 
@@ -94,6 +93,14 @@
 | Tool Trims                          | 2.3.3a  | [Modrinth](https://modrinth.com/datapack/tool-trims)                                             |
 | True Ending – Ender Dragon Overhaul | 1.1.4b  | [Modrinth](https://modrinth.com/datapack/true-ending)                                            |
 | Vanilla Refresh                     | 1.4.27g | [Modrinth](https://modrinth.com/datapack/vanilla-refresh)                                        |
+| Vanilla Tweaks - Armor Statues      | 2.8.19  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - Mini Blocks        | 1.1.3   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - TrackRawStatistics | 1.7.9   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - Track Statistics   | 1.1.15  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - Unlock All Recipes | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks Crafting Tweaks*     | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/crafting-tweaks/)                           |
+
+\* (unpackable ice, straight to shapeless, more bark, more stairs & more bricks)
 
 ### 🎨 Resource Packs
 
