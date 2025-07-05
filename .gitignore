@@ -6,6 +6,7 @@ logs/
 versions/
 banned-ips.json
 banned-players.json
+map-color-cache.dat
 ops.json
 permissions.yml
 usercache.json
@@ -24,6 +25,8 @@ plugins/CoreProtect/.license
 
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
+plugins/Essentials/userdata/
+plugins/ImageFrame/players/
 
 plugins/ImageFrame/data/
 plugins/ImageFrame/upload/
@@ -44,6 +47,8 @@ world/entities/
 world/playerdata/
 world/poi/
 world/region/
+world/advancements/
+world/stats/
 world/level.dat
 world/session.lock
 world/uid.dat
