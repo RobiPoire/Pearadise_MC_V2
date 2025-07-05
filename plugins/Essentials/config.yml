@@ -429,7 +429,7 @@ per-warp-permission: false
 list:
     # Pour fusionner des groupes sous un seul nom dans /list, listez chaque groupe sur une ligne, séparés par des espaces.
     #Staff: owner admin moderator
-    # Goroseil: owner admin
+    #Admins: owner admin
     # Pour tronquer les listes de groupes, définissez une limite maximale de joueurs.
     #builder: 20
     # Pour masquer des groupes, définissez le groupe comme masqué.
