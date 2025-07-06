@@ -86,7 +86,9 @@
 | DnT Woodland Mansion Replacement    | 1.6.1   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns-woodland-mansion-replacement)      |
 | Dungeons and Taverns                | 4.7.3   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns)                                   |
 | Explorify                           | 1.6.2   | [Modrinth](https://modrinth.com/datapack/explorify)                                              |
+| Ghast Pedal!*                        | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
 | Hopo Better Underwater Ruins        | 1.2.4   | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
+| Minecart Improvements               | 1.21.7  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
 | Structory                           | 1.3.11  | [Modrinth](https://modrinth.com/datapack/structory)                                              |
 | Terralith                           | 2.5.11  | [Modrinth](https://modrinth.com/datapack/terralith)                                              |
 | Terratonic                          | 3.0     | [Modrinth](https://modrinth.com/datapack/terratonic)                                             |
@@ -98,9 +100,10 @@
 | Vanilla Tweaks - TrackRawStatistics | 1.7.9   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Track Statistics   | 1.1.15  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Unlock All Recipes | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
-| Vanilla Tweaks Crafting Tweaks*     | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/crafting-tweaks/)                           |
+| Vanilla Tweaks Crafting Tweaks**    | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/crafting-tweaks/)                           |
 
-\* (unpackable ice, straight to shapeless, more bark, more stairs & more bricks)
+\* J’ai modifié le datapack: l’augmentation de la vitesse était initialement de 30 %, elle est désormais de 40 % <br>
+\** (unpackable ice, straight to shapeless, more bark, more stairs & more bricks)
 
 ### 🎨 Resource Packs
 
