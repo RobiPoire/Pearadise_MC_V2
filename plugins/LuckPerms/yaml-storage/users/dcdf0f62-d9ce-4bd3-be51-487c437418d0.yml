@@ -1,0 +1,6 @@
+uuid: dcdf0f62-d9ce-4bd3-be51-487c437418d0
+name: Dancemel
+primary-group: default
+parents:
+- default
+- nodiscord
