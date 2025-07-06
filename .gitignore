@@ -40,8 +40,11 @@ plugins/WorldEdit/*/
 
 # World
 world/*
+!world/datapacks/
+world/datapacks/bukkit
+!world/data/
+world/data/
 !world/data/command_storage_vanilla_refresh_config.dat
-!world/datapacks/*.zip
 !world/paper-world.yml
 
 # World the End
