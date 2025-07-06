@@ -18,12 +18,6 @@ messages:
   outdated-client: Client obsolète ! Utilise {0}
   outdated-server: Serveur obsolète ! Je suis toujours sur {0}
   restart: Le serveur redémarre
-
-
-advancements:
-  disable-saving: false
-  disabled:
-  - minecraft:story/disabled
 settings:
   bungeecord: false
   save-user-cache-on-stop-only: false
@@ -35,7 +29,7 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  netty-threads: 2
+  netty-threads: 4
   attribute:
     maxAbsorption:
       max: 2048.0
@@ -48,6 +42,10 @@ settings:
   log-villager-deaths: true
   log-named-deaths: true
   debug: false
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
 players:
   disable-saving: false
 config-version: 12

@@ -85,7 +85,7 @@ misc:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
   client-interaction-leniency-distance: default
-  compression-level: 2
+  compression-level: default
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
   prevent-negative-villager-demand: false
@@ -107,8 +107,8 @@ packet-limiter:
       interval: 4.0
       max-packet-rate: 5.0
 player-auto-save:
-  max-per-tick: 10
-  rate: 600
+  max-per-tick: -1
+  rate: -1
 proxies:
   bungee-cord:
     online-mode: false
