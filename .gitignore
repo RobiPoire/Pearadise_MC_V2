@@ -7,7 +7,6 @@ versions/
 banned-ips.json
 banned-players.json
 map-color-cache.dat
-ops.json
 permissions.yml
 usercache.json
 whitelist.json
