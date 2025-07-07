@@ -31,7 +31,7 @@ ops-name-color: "none"
 
 # Le ou les caractères à préfixer à tous les pseudos, afin que vous sachiez qu'ils ne sont pas de vrais noms d'utilisateur.
 # Les joueurs avec 'essentials.nick.hideprefix' ne seront pas préfixés avec le ou les caractères.
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # La longueur maximale autorisée dans les pseudos. Le préfixe de pseudo n'est pas inclus dans ceci.
 max-nick-length: 15
