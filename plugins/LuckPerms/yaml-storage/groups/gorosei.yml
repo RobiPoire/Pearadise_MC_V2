@@ -13,4 +13,5 @@ permissions:
 - essentials.unban
 - essentials.unbanip
 - minecraft.command.whitelist
+- proantitab.group.gorosei
 - weight.5

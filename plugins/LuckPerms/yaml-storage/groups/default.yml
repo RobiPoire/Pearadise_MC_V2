@@ -876,4 +876,5 @@ permissions:
 - imageframe.get
 - imageframe.overlay
 - minecraft.command.trigger
+- proantitab.group.default
 - weight.1
