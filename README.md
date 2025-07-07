@@ -18,14 +18,15 @@
 | `/ignore <joueur>`        | Ignore ou réactive l’affichage des messages d’un joueur.           |
 | `/realname <pseudo>`      | Affiche le pseudo réel d’un joueur « nicknamé ».                   |
 | `/rtoggle`                | Définit si `/r` répond au dernier message reçu ou envoyé.          |
-| `/gamerules`              | Affiche les règles du serveur (gamerules).                                 |
-| `/stats`                  | Affiche vos statistiques personnelles.                                     |
+| `/gameruleslist           | Affiche les règles du serveur (gamerules).                         |
+| `/stats`                  | Affiche vos statistiques personnelles.                             |
 | `/r`                      | Répond au dernier message reçu.                                    |
 | `/axgrave list`           | Affiche la liste de vos tombes (plugin AxGraves).                  |
 | `/plugins`                | Affiche la liste des plugins actifs sur le serveur.                |
 | `/version`                | Affiche la version du serveur.                                     |
 | `/discord`                | Affiche le lien vers notre Discord communautaire.                  |
 | `/tps`                    | Affiche le TPS (Tick Rate) actuel du serveur.                      |
+| `/sparktps`               | Affiche le TPS (Tick Rate) actuel du serveur avec Spark.           |
 
 ### 🖼️ Commandes ImageFrame
 
@@ -87,7 +88,7 @@
 | DnT Woodland Mansion Replacement    | 1.6.1   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns-woodland-mansion-replacement)      |
 | Dungeons and Taverns                | 4.7.3   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns)                                   |
 | Explorify                           | 1.6.2   | [Modrinth](https://modrinth.com/datapack/explorify)                                              |
-| Ghast Pedal!*                        | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
+| Ghast Pedal!*                       | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
 | Hopo Better Underwater Ruins        | 1.2.4   | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
 | Minecart Improvements               | 1.21.7  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
 | Structory                           | 1.3.11  | [Modrinth](https://modrinth.com/datapack/structory)                                              |

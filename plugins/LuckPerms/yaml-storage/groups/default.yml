@@ -877,4 +877,5 @@ permissions:
 - imageframe.overlay
 - minecraft.command.trigger
 - proantitab.group.default
+- spark.tps
 - weight.1

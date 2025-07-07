@@ -25,6 +25,7 @@ groups:
     - tps
     - help
     - imageframe
+    - sparktps
   gorosei:
     priority: 1
     commands:
@@ -61,3 +62,4 @@ groups:
     - imageframe
     - co
     - coreprotect
+    - sparktps

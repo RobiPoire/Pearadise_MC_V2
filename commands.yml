@@ -27,3 +27,5 @@ aliases:
   - trigger gamerules
   stats:
   - trigger stats
+  sparktps:
+  - trigger sparktps
