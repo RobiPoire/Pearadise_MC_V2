@@ -23,6 +23,7 @@ plugins/CoreProtect/database.db
 plugins/CoreProtect/.license
 
 plugins/Essentials/*
+!plugins/Essentials/messages/
 !plugins/Essentials/*.yml
 !plugins/Essentials/*.json
 
@@ -30,6 +31,7 @@ plugins/ImageFrame/*
 !plugins/ImageFrame/config.json
 
 plugins/LuckPerms/libs/
+plugins/LuckPerms/translations/
 plugins/LuckPerms/yaml-storage/*.txt
 plugins/LuckPerms/editor-keystore.json
 
@@ -54,4 +56,3 @@ world_the_end/
 # World Nether
 world_nether/*
 !world_nether/paper-world.yml
-
