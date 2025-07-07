@@ -459,3 +459,5 @@ permissions:
 - imageframe.overlay
 - minecraft.command.trigger
 - weight.10
+- proantitab.bypass
+- proantitab.*
