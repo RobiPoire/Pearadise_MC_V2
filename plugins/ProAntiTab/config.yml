@@ -1,0 +1,301 @@
+#      ____             ___          __  _ ______      __
+#     / __ \_________  /   |  ____  / /_(_)_  __/___ _/ /_
+#    / /_/ / ___/ __ \/ /| | / __ \/ __/ / / / / __ `/ __ \
+#   / ____/ /  / /_/ / ___ |/ / / / /_/ / / / / /_/ / /_/ /
+#  /_/   /_/   \____/_/  |_/_/ /_/\__/_/ /_/  \__,_/_.___/
+#  config.yml (Bukkit/Spigot version)
+
+# This section doesn't really need to be changed,
+# but a few people seem not to like my design for a custom update-notification message...
+# Well... that's basically the whole reason for this one here. xd
+updater:
+  enabled: true
+  period: 10000
+  auto-update-config: true
+  updated:
+    - '&8[&2PAT &7| &2Bukkit&8] &aYou are using the newest version! ^^'
+  outdated:
+    - '&8[&4PAT &7| &4Bukkit&8] &cThere is a new version available! (%newest_version%)'
+    - '&8[&4PAT &7| &4Bukkit&8] &cYou are still using the %current_version%.'
+    - '&8[&4PAT &7| &4Bukkit&8] &cGet the newest version here:'
+    - '&8[&4PAT &7| &4Bukkit&8] &ehttps://www.rayzs.de/products/proantitab/page'
+
+# (!) Warning: If you have a Bungeecord/Velocity server, please enable this option!
+# (!) How to use it properly can be seen on the following page:
+# (!) https://www.spigotmc.org/resources/113172/field?field=documentation
+# (!) At the first section ("How to setup") are spoilers with different server scenarios.
+# (!) Open the spoiler that matches your server scenario and follow the instructed steps in there.
+# Enabling this allows the Bungeecord/Velocity and backend servers to communicate with each other.
+# Information that are being communicated with are for example settings of certain features, but also important
+# data about groups, commands and much more, that are very important for the tab-completion & suggestions!
+# Affected features that are being synced with, or overwritten by the proxy, are marked as ">> HTP".
+handle-through-proxy:
+  enabled: false
+  token: insert-token-of-proxy-here
+
+#>> HTP
+# This is a very necessary feature if you have way too many commands to block and instead decide
+# to whitelist specific commands.
+# Enabling this will disable ALL commands except for those that are in the (group-)list.
+turn-blacklist-to-whitelist: true
+
+# Here you can customize the server version that is displayed on a ping. (The text at the player-count)
+# (!) Warning: It's required to use Paper or Purpur to use this feature!
+# (!) Supported server versions: 1.12.2 - latest
+custom-protocol-ping:
+  enabled: false
+
+  # Normally it would only display when someone pings the server with the wrong version.
+  # Enabling this will always display the protocol and replace it with the normal player count.
+  always-show: false
+
+  # This number here determines the outcome for the %online_extended% placeholder.
+  # It's the current amount of players increased by this number.
+  # For example: 5/20 becomes 6/20
+  extend-online-count: 0
+  # true: Use new calculated online-count (%online_extended%) as max-players count.
+  # false: Use the default max-players count.
+  use-as-maxplayers: false
+
+  # Enabling this option hides the list of players on your server,
+  # when you hover over the player count.
+  hide-players: false
+
+  # The displayed protocol message
+  # Available placeholders:
+  # %online%            - current online player count
+  # %online_extended%   - manipulated online player count
+  # %max%               - max player count
+  protocol: '&f&lProAntiTab &7(&a%online%&7/&c%max%&7)'
+
+#>> HTP (Sync)
+# This feature allows you to create your own 'Unknown command.' message.
+# It is very helpful considering the fact you might have to set the same message
+# for if a command is blocked or really doesn't exist. ^^
+# Good to hide real and not-real commands from your players.
+custom-unknown-command:
+  enabled: false
+  message:
+    - '&cThis command does not exist!'
+
+#>> HTP (Overwritten)
+# This setting decides if a listed command should be cancelled from execution or not.
+# As you can see it's enabled by default, which is also why every command that is listed
+# is being blocked entirely.
+cancel-blocked-commands:
+  enabled: false
+  base-command-message:
+    - '&cCette commande est bloquée!'
+  sub-command-message:
+    - '&cCette sous-commande est bloquée!'
+
+#>> HTP (Overwritten)
+# Here you can customize your own fake '/plugins' command.
+custom-plugins:
+  enabled: false
+
+  # If this is set to true, the command will always be tab-completable,
+  # even if the command is supposed to be blocked
+  always-tab-completable: false
+  
+  commands:
+    - pl
+    - plugins
+  message:
+    - '&fPlugins (0):'
+
+#>> HTP (Overwritten)
+# Here you can customize your own fake '/version' command.
+custom-version:
+  enabled: false
+
+  # If this is set to true, the command will always be tab-completable,
+  # even if the command is supposed to be blocked
+  always-tab-completable: false
+
+  commands:
+    - icanhasbukkit
+    - version
+    - ver
+  message:
+    - '&fThis server is running CraftBukkit version git-NasaSpigot-294 (MC: X)'
+
+#>> HTP (Overwritten)
+# Here you can disable all namespace commands.
+# Namespace commands are commands like plugin:command (e.g: essentials:warp)
+# You can bypass this restriction with the proantitab.namespace permission.
+block-namespace-commands:
+  enabled: false
+
+# Patches a small exploit which causes the server to lag.
+# Due to the fact that PAT interacts directly with Tab-Completions and their packets,
+# it would be a waste not to provide some simple patches like these. ^^
+patch-exploits:
+  enabled: false
+  alert-message: '%prefix% &4%player% &ctried to crash/lag the server.'
+  kick-message: '&cFailed to read packet! Please reconnect.'
+
+#>> HTP (Overwritten)
+# This feature allows you to customize your server brand you see when you press F3.
+# Normally there is something like 'Purpur', or 'Spigot'.
+# With this feature, you are able to change and even animate it.
+custom-server-brand:
+  enabled: false
+
+  # Determines the speed at which the animation goes.
+  # Set this to -1 to disable the animation.
+  # Disabling the animation will only display
+  # the first brand of this list.
+  # Warning:
+  # By disabling the animation, you also disable the
+  # automatic update of information.
+  # That means that placeholders won't update unless the
+  # player rejoins the server.
+  repeat-delay: 3
+
+  # This is the list of the animation
+  # Possible placeholders:
+  # %player%        - name of the player
+  # %displayname%   - display name of the player
+  # %world%         - name of the world where the player is
+  # and the other placeholders from PlaceholderAPI.
+  brands:
+    - '&2P&ae&ba&er&2a&ad&bi&es&2e'
+    - '&eP&2e&aa&br&ea&2d&ai&bs&ee'
+    - '&bP&ee&2a&ar&ba&ed&2i&as&be'
+    - '&aP&be&ea&2r&aa&bd&ei&2s&ae'
+
+# ------------------------------------------------------------------------------
+#       __  ___
+#      /  |/  /__  ______________ _____ ____  _____
+#     / /|_/ / _ \/ ___/ ___/ __ `/ __ `/ _ \/ ___/
+#    / /  / /  __(__  |__  ) /_/ / /_/ /  __(__  )
+#   /_/  /_/\___/____/____/\__,_/\__, /\___/____/
+#                               /____/
+# Here are all the remaining messages for the InGame commands.
+# Have fun editing them to your liking! ^^
+# Remember: PlaceholderAPI & MiniMessage works on all these messages! ^^
+# Here are a few other placeholders that can be used in any message here:
+# %prefix%            - the plugin prefix
+# %executor%          - the name of the executor (command specified)
+# %newest_version%    - the version name of the latest plugin update
+# %current_version%   - the version name of the plugin that is installed right now
+
+prefix: '&8[&4ProAntiTab&8]'
+only-for-proxy: '&cCette commande fonctionne uniquement sur les serveurs Bungeecord/Velocity !'
+no-permissions: '&cVous n’êtes pas autorisé à exécuter cette commande ! Permission manquante : &4%permission%'
+command-failed: '&cÉchec de l’exécution de la commande ! Utilisez "/pat" pour voir toutes les commandes disponibles.'
+
+update-permissions:
+  all-players: '&aPermissions mises à jour !'
+  specific-player: '&aPermissions de %target% mises à jour !'
+  player-not-online: '&c%target% n’est pas en ligne !'
+
+post-debug:
+  success: '&aLogs de débogage envoyés avec succès : &e%link% &8(<click:open_url:%link%><gray>CLIQUEZ ICI</click>&8)'
+  failed: '&cÉchec de l’envoi des logs de débogage !'
+
+reload:
+  loading: '&eRechargement de tous les fichiers de configuration...'
+  done: '&aTous les fichiers de configuration ont été rechargés avec succès !'
+
+perms-check:
+  message: "&7Toutes les permissions liées à PAT de &e%player%&7 : &e%permissions%"
+  player-is-missing: "&cVeuillez spécifier le joueur dont vous voulez vérifier les permissions."
+  player-not-online: "&c%player% n'est pas en ligne !"
+
+help:
+  - '&7Commandes disponibles : &f/%label%&7... &8[&fBUKKIT&8]'
+  - '&7Format : &8<optionnel> (obligatoire)'
+  - '&f  reload &7pour recharger le plugin'
+  - '&f  notify &7pour recevoir des alertes'
+  - '&f  info &7pour obtenir quelques infos'
+  - '&f  postdebug &7pour envoyer les logs de PAT'
+  - '&f  update <joueur> &7pour mettre à jour les permissions du/des joueur(s)'
+  - "&f  perms <joueur> &7pour vérifier les permissions d'un joueur"
+  - '&f  add/rem (commande) &8<groupe> &7pour gérer la liste'
+  - '&f  clear &8<groupe> &7pour vider la liste'
+  - '&f  creategroup (groupe) &7pour créer un groupe'
+  - '&f  deletegroup (groupe) &7pour supprimer un groupe'
+  - '&f  setpriority (groupe) (priorité) &7pour définir la priorité'
+  - '&f  list &8(groupe) &7pour voir toutes les commandes listées'
+  - '&f  listgroups &7pour lister tous les groupes'
+  - '&f  listpriorities &7pour lister les priorités des groupes'
+
+info:
+  version:
+    updated: '&aÀ jour'
+    outdated: '&cPas à jour (%newest_version%)'
+
+  proxy-sync:
+    time: '&e%time%'
+    disabled: '&cDésactivée !'
+
+  message:
+    - '&7Informations essentielles sur &fPAT&8 :'
+    - '&7  Version : &e%current_version%'
+    - '&7  État : %version_status%'
+    - '&7  Dernière synchro avec le proxy : %sync_time%'
+    - '&7  Jeton de synchronisation proxy : &e%token%'
+    - '&7  Nom du serveur reçu par le proxy : &e%sync_server_name%'
+
+notification:
+  enabled: '&aNotifications activées'
+  disabled: '&cNotifications désactivées'
+  alert:
+    - '&8[&4ALERTE&8] &c%player% &8(&7monde : &e%world%&8) &ca tenté d’exécuter la commande bloquée : &4%command%'
+
+blacklist:
+  clear: '&aLa liste a été vidée !'
+  clear-confirmation: '&4Attention ! &7Cette commande va &csupprimer toute la liste&7 ! &7Répétez la &emême commande &7pour confirmer cette action.'
+
+  list:
+    message: '&7Commandes listées (&f%size%&7)&8 : &f%commands%'
+    splitter: '&7, '
+    command: '&f%command%'
+
+  add:
+    success: '&a%command% a été ajoutée à la liste avec succès !'
+    failed: '&c%command% est déjà dans la liste !'
+
+  remove:
+    success: '&a%command% a été retirée de la liste avec succès !'
+    failed: '&c%command% n’est pas dans la liste !'
+
+group:
+  create: '&aLe groupe %group% a été créé !'
+  already-exist: '&cLe groupe %group% existe déjà !'
+  does-not-exist: '&cLe groupe %group% n’existe pas !'
+
+  delete: '&cLe groupe %group% a été supprimé !'
+  delete-confirmation: '&4Attention ! &7Cette commande va &csupprimer tout le groupe avec sa liste complète&7 ! &7Répétez la &emême commande &7pour confirmer cette action.'
+
+  clear: '&aLa liste du groupe %group% a été vidée !'
+  clear-confirmation: '&4Attention ! &7Cette commande va &csupprimer toute la liste&7 de ce groupe ! &7Répétez la &emême commande &7pour confirmer cette action.'
+
+  priority:
+    success: '&aPriorité du groupe &e%group% &adéfinie à &e%priority%&a avec succès !'
+    failed: '&cPriorité invalide ! Veuillez choisir un nombre supérieur à 0.'
+
+  list:
+    message: '&7Commandes listées du groupe %group% (&f%size%&7)&8 : &f%commands%'
+    splitter: '&7, '
+    command: '&f%command%'
+
+  list-groups:
+    message: '&7Tous les groupes (&f%size%&7)&8 : &f%groups%'
+    splitter: '&7, '
+    command: '&f%group%'
+
+  list-priorities:
+    message: '&7Liste des priorités de tous les groupes (&f%size%&7)&8 : \n&f%groups%'
+    splitter: '\n'
+    group: '&8- &e%priority%&8 : &f%group%'
+
+  add:
+    success: '&a%command% a été ajoutée avec succès à la liste du groupe %group% !'
+    failed: '&c%command% est déjà dans la liste du groupe %group% !'
+
+  remove:
+    success: '&a%command% a été retirée avec succès de la liste du groupe %group% !'
+    failed: '&c%command% n’est pas dans la liste du groupe %group% !'

@@ -1,0 +1,63 @@
+global:
+  commands: []
+
+groups:
+  default:
+    priority: 2
+    commands:
+    - msg
+    - itemlore
+    - hat
+    - playtime
+    - recipe
+    - msgtoggle
+    - list
+    - ignore
+    - realname
+    - rtoggle
+    - gameruleslist
+    - stats
+    - r
+    - axgrave
+    - plugins
+    - version
+    - discord
+    - tps
+    - help
+    - imageframe
+  gorosei:
+    priority: 1
+    commands:
+    - ban
+    - banip
+    - kick
+    - kickall
+    - mute
+    - nick
+    - tempban
+    - tempbanip
+    - unban
+    - unbanip
+    - whitelist
+    - msg
+    - itemlore
+    - hat
+    - playtime
+    - recipe
+    - msgtoggle
+    - list
+    - ignore
+    - realname
+    - rtoggle
+    - gameruleslist
+    - stats
+    - r
+    - axgrave
+    - plugins
+    - version
+    - discord
+    - tps
+    - help
+    - imageframe
+    - co
+    - coreprotect
