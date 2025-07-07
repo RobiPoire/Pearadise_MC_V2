@@ -16,11 +16,10 @@
 | `/msgtoggle`              | Active ou désactive la réception des messages privés.              |
 | `/list`                   | Affiche la liste des joueurs actuellement en ligne.                |
 | `/ignore <joueur>`        | Ignore ou réactive l’affichage des messages d’un joueur.           |
-| `/realname <pseudo>`      | Affiche le pseudo réel d’un joueur « nicknamé ».                  |
+| `/realname <pseudo>`      | Affiche le pseudo réel d’un joueur « nicknamé ».                   |
 | `/rtoggle`                | Définit si `/r` répond au dernier message reçu ou envoyé.          |
-| `/trigger gamerules`      | Affiche les règles du serveur (gamerules).                         |
-| `/trigger playerlist`     | Affiche la liste des joueurs connectés.                            |
-| `/trigger stats`          | Affiche vos statistiques personnelles.                             |
+| `/gamerules`              | Affiche les règles du serveur (gamerules).                                 |
+| `/stats`                  | Affiche vos statistiques personnelles.                                     |
 | `/r`                      | Répond au dernier message reçu.                                    |
 | `/axgrave list`           | Affiche la liste de vos tombes (plugin AxGraves).                  |
 | `/plugins`                | Affiche la liste des plugins actifs sur le serveur.                |
@@ -60,12 +59,14 @@
 | --------------------- | -------------- | --------------------------------------------------------------------- |
 | AxGraves              | 1.22.2         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
 | Chunky                | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
+| ConsoleSpamFixReborn  | 1.11.6         | [Modrinth](https://modrinth.com/plugin/console-spam-fix-reborn)       |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
 | EssentialsX           | 2.21.2-dev+22  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | EssentialsXChat       | 2.21.2-dev+22  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | EssentialsXDiscord    | 2.21.2-dev+22  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | ImageFrame            | 1.8.4          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
+| ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
 | VaultUnlocked         | 2.13.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit             | 7.3.15-beta-02 | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 | XaeroForceDisabler    | 1.3            | [Modrinth](https://modrinth.com/plugin/drqads-xaero-force-disabler)   |
