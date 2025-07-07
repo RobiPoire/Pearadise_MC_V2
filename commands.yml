@@ -23,3 +23,7 @@ aliases:
   - lp user $$1 parent remove admin
   rgorosei:
   - lp user $$1 parent remove gorosei
+  gameruleslist:
+  - trigger gamerules
+  stats:
+  - trigger stats
