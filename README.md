@@ -117,7 +117,6 @@
 | Ghast Pedal!*                       | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
 | Hopo Better Underwater Ruins        | 1.2.4   | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
 | Minecart Improvements               | 1.21.7  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
-| More Mobs                           | 1.5.6   | [Modrinth](https://modrinth.com/datapack/more-mobs)                                              |
 | Structory                           | 1.3.11  | [Modrinth](https://modrinth.com/datapack/structory)                                              |
 | Terralith                           | 2.5.11  | [Modrinth](https://modrinth.com/datapack/terralith)                                              |
 | Terratonic                          | 3.0     | [Modrinth](https://modrinth.com/datapack/terratonic)                                             |
