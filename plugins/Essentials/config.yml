@@ -34,7 +34,7 @@ ops-name-color: "none"
 nickname-prefix: ''
 
 # La longueur maximale autorisée dans les pseudos. Le préfixe de pseudo n'est pas inclus dans ceci.
-max-nick-length: 15
+max-nick-length: 64
 
 # Le motif d'expression régulière utilisé pour déterminer si un pseudo demandé doit être autorisé à être utilisé.
 # Si le pseudo demandé ne correspond pas à ce motif, le pseudo sera rejeté.
