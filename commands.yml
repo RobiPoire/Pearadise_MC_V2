@@ -28,4 +28,4 @@ aliases:
   stats:
   - trigger stats
   sparktps:
-  - trigger sparktps
+  - spark tps
