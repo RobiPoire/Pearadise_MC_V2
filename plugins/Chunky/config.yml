@@ -6,4 +6,4 @@ language: fr
 continue-on-restart: true
 force-load-existing-chunks: false
 silent: false
-update-interval: 1
+update-interval: 60
