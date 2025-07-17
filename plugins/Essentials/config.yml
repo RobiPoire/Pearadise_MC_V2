@@ -932,7 +932,7 @@ chat:
   # Note : Le placeholder {DISPLAYNAME} inclut {PREFIX} et {SUFFIX} par défaut.
   # Les utiliser ensemble peut entraîner des préfixes/suffixes doubles dans le chat.
 
-  format: '[{DISPLAYNAME}] {MESSAGE}'
+  format: '{DISPLAYNAME}&r: {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
