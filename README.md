@@ -77,7 +77,7 @@
 
 | Plateforme | Version   | Lien                                             |
 | ---------- | --------- | ------------------------------------------------ |
-| PaperMC    | 1.21.8-3 | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC    | 1.21.8-4  | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### 🔌 Plugins
 
