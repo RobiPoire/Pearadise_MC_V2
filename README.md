@@ -138,3 +138,4 @@
 | --------------------------------- | ------- | ---------------------------------------------------------------------------- |
 | Tool Trims (Textures)             | 2.3.3   | [Modrinth](https://modrinth.com/datapack/tool-trims)                         |
 | True Ending: Ender Dragon Music   | 1.0     | [Modrinth](https://modrinth.com/resourcepack/true-ending-ender-dragon-music) |
+| Terralith Language Fix            | 1.1.0   | [Modrinth](https://modrinth.com/resourcepack/terralith-lang)                 |
