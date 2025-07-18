@@ -30,7 +30,6 @@
 
 > ℹ️ **Note**  
 > - Commandes accessibles à tous les joueurs (pas besoin d’admin).  
-> - Une carte vide est nécessaire pour certaines commandes (ex. `/imageframe create`).  
 
 ---
 

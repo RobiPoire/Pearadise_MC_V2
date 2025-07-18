@@ -28,7 +28,7 @@ plugins/Essentials/*
 !plugins/Essentials/*.json
 
 plugins/ImageFrame/*
-!plugins/ImageFrame/config.json
+!plugins/ImageFrame/config.yml
 
 plugins/LuckPerms/libs/
 plugins/LuckPerms/translations/
