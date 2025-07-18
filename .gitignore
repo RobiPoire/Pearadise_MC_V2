@@ -9,7 +9,7 @@ banned-players.json
 map-color-cache.dat
 permissions.yml
 usercache.json
-whitelist.json
+version_history.json
 
 # Plugins
 plugins/.paper-remapped/
