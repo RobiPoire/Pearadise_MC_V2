@@ -471,7 +471,7 @@ remove-god-on-disconnect: false
 # Après ce délai en secondes, le joueur sera marqué comme AFK.
 # Cette fonctionnalité nécessite que le joueur ait la permission 'essentials.afk.auto'.
 # Définissez sur -1 pour aucun délai.
-auto-afk: 300
+auto-afk: -1
 
 # Après ce délai en secondes, le joueur sera expulsé du serveur.
 # La permission 'essentials.afk.kickexempt' annule cette fonctionnalité.
@@ -515,7 +515,7 @@ afk-list-name: "none"
 
 # Lorsque un joueur entre ou sort du mode AFK, le message de notification AFK doit-il être diffusé à l'ensemble du serveur, ou uniquement au joueur ?
 # Lorsque ce paramètre est faux, seul le joueur sera notifié lors du changement de son état AFK.
-broadcast-afk-message: true
+broadcast-afk-message: false
 
 # Vous pouvez désactiver les messages de mort de Minecraft ici.
 death-messages: true
