@@ -77,7 +77,7 @@
 
 | Plateforme | Version   | Lien                                             |
 | ---------- | --------- | ------------------------------------------------ |
-| PaperMC    | 1.21.8-4  | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC    | 1.21.8-6  | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### 🔌 Plugins
 
@@ -94,7 +94,7 @@
 | LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
 | ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
 | VaultUnlocked         | 2.14.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
-| WorldEdit             | 7.3.15         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
+| WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 | XaeroForceDisabler    | 1.3            | [Modrinth](https://modrinth.com/plugin/drqads-xaero-force-disabler)   |
 
 ### 📦 Datapacks
