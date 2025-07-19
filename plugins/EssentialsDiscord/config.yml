@@ -38,7 +38,7 @@ discord-url: "SECRET"
 # - staff, qui envoie les messages de kick/mute
 # (note : vous devez remplacer les zéros par l’ID réel des canaux que vous souhaitez utiliser)
 channels:
-  primary: 1383175116497752165
+  primary: 1395823244745117796
   #staff: 1383178833435426836
 
 # Tous les joueurs doivent-ils recevoir les messages Discord du canal principal, indépendamment de leurs permissions ?
@@ -80,7 +80,7 @@ console:
   # L’ID du canal (ou URL webhook) où envoyer la sortie console.
   # Si invalide ou défini à 'none', le relais console sera désactivé.
   # Note : si vous utilisez un ID canal, le bot doit avoir la permission "Manage Webhooks" sur Discord.
-  channel: 1383178833435426836
+  channel: 'none'
   # Format du message console. Placeholders disponibles :
   # - {timestamp} : heure au format HH:mm:ss
   # - {level} : niveau du log console
@@ -265,7 +265,7 @@ messages:
   # - {role} : nom du rôle principal Discord (vide si aucun)
   # - {color} : couleur Minecraft du rôle principal Discord (vide si aucune)
   # - {message} : contenu du message
-  discord-to-mc: "&6[#{channel}] &3{fullname}&7: &f{message}"
+  discord-to-mc: "&6[Discord] &3{fullname}&7: &f{message}"
   # Message relayant le chat Minecraft dans Discord.
   # Placeholders :
   # - {username} : joueur Minecraft
