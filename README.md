@@ -85,7 +85,6 @@
 | --------------------- | -------------- | --------------------------------------------------------------------- |
 | AxGraves              | 1.22.3         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
 | Chunky                | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
-| ConsoleSpamFixReborn  | 1.11.6         | [Modrinth](https://modrinth.com/plugin/console-spam-fix-reborn)       |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
 | EssentialsX           | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | EssentialsXChat       | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
