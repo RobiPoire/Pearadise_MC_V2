@@ -534,7 +534,7 @@ send-info-after-death: true
 # Les joueurs avec des permissions doivent-ils pouvoir rejoindre et quitter silencieusement ?
 # Vous pouvez contrôler cela avec les permissions 'essentials.silentjoin' et 'essentials.silentquit' si cela est activé.
 # De plus, les personnes avec 'essentials.silentjoin.vanish' seront invisibles lors de la connexion.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # Vous pouvez définir des messages de connexion et de déconnexion personnalisés ici. Définissez ceci sur "none" pour utiliser le message Minecraft par défaut, ou définissez ceci sur "" pour masquer entièrement le message.
 #
