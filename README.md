@@ -122,6 +122,7 @@
 | True Ending – Ender Dragon Overhaul | 1.1.4b  | [Modrinth](https://modrinth.com/datapack/true-ending)                                            |
 | Vanilla Refresh                     | 1.4.27g | [Modrinth](https://modrinth.com/datapack/vanilla-refresh)                                        |
 | Vanilla Tweaks - Armor Statues      | 2.8.19  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - Fast Leaf Decay    | 2.0.18  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Mini Blocks        | 1.1.3   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - TrackRawStatistics | 1.7.9   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Track Statistics   | 1.1.15  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
