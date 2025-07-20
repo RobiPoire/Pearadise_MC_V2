@@ -27,6 +27,8 @@ aliases:
   - trigger gamerules
   stats:
   - trigger stats
+  statsother:
+  - trigger stats $1
   sparktps:
   - spark tps
   spawn:

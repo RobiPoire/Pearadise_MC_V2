@@ -20,6 +20,7 @@
 | `/rtoggle`                | Définit si `/r` répond au dernier message reçu ou envoyé.         |
 | `/gameruleslist`          | Affiche les règles du serveur (gamerules).                        |
 | `/stats`                  | Affiche vos statistiques personnelles.                            |
+| `/statsother <ID>`        | Affiche les statistiques d'un joueur.                             |
 | `/r`                      | Répond au dernier message reçu.                                   |
 | `/axgrave list`           | Affiche la liste de vos tombes (plugin AxGraves).                 |
 | `/plugins`                | Affiche la liste des plugins actifs sur le serveur.               |

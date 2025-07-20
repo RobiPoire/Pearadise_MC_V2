@@ -26,6 +26,7 @@ groups:
     - help
     - imageframe
     - sparktps
+    - statsother
   gorosei:
     priority: 1
     commands:
@@ -63,3 +64,4 @@ groups:
     - co
     - coreprotect
     - sparktps
+    - statsother
