@@ -7,6 +7,16 @@ permissions:
 - essentials.kickall
 - essentials.mute
 - essentials.nick
+- essentials.nick.allowunsafe
+- essentials.nick.blacklist.bypass
+- essentials.nick.changecolors
+- essentials.nick.changecolors.bypass
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.hideprefix
+- essentials.nick.magic
+- essentials.nick.others
+- essentials.nick.rgb
 - essentials.socialspy
 - essentials.tempban
 - essentials.tempbanip
