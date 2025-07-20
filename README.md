@@ -28,6 +28,10 @@
 | `/discord`                | Affiche le lien vers notre Discord communautaire.                 |
 | `/tps`                    | Affiche le TPS (tick rate) actuel du serveur.                     |
 | `/sparktps`               | Même chose, avec les statistiques Spark.                          |
+| `/armorstatues`           | Voir l'aide du datapack Armor Statues.                            |
+| `/coo inOverworld`        | Voir les coordonnées équivalente de l'overworld par rapport au nether.      |
+| `/coo inNether`           | Voir les coordonnées équivalente du nether par rapport à l'overworld.       |
+
 
 > ℹ️ **Note**  
 > - Commandes accessibles à tous les joueurs (pas besoin d’admin).  

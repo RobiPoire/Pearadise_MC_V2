@@ -33,3 +33,9 @@ aliases:
   - spark tps
   spawn:
   - minecraft:tp 0 64 0
+  armorstatues:
+  - trigger as_help
+  coo inNether :
+  - trigger nc_inNether
+  coo inOverworld :
+  - trigger nc_inOverworld

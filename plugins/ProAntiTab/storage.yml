@@ -27,6 +27,9 @@ groups:
     - imageframe
     - sparktps
     - statsother
+    - armorstatues
+    - coo inNether
+    - coo inOverworld
   gorosei:
     priority: 1
     commands:
@@ -65,3 +68,6 @@ groups:
     - coreprotect
     - sparktps
     - statsother
+    - armorstatues
+    - coo inNether
+    - coo inOverworld
