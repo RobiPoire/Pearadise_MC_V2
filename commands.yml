@@ -28,7 +28,7 @@ aliases:
   stats:
   - trigger stats
   statsother:
-  - trigger stats $1
+  - trigger stats set $1
   sparktps:
   - spark tps
   spawn:
