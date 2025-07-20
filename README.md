@@ -125,9 +125,11 @@
 | Vanilla Tweaks - Armor Statues      | 2.8.19  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Fast Leaf Decay    | 2.0.18  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Mini Blocks        | 1.1.3   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - NetherPortalCoords | 1.1.13  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - TrackRawStatistics | 1.7.9   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Track Statistics   | 1.1.15  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Unlock All Recipes | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
+| Vanilla Tweaks - Wandering Trades   | 1.7.12  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks Crafting Tweaks**    | 2.0.14  | [vanillatweaks.net](https://vanillatweaks.net/picker/crafting-tweaks/)                           |
 
 \* J’ai modifié le datapack: l’augmentation de la vitesse était initialement de 30 %, elle est désormais de 40 % <br>
