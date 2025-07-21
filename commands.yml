@@ -35,7 +35,7 @@ aliases:
   - minecraft:tp 0 64 0
   armorstatues:
   - trigger as_help
-  coo inNether :
+  coo_nether :
   - trigger nc_inNether
-  coo inOverworld :
+  coo_overworld :
   - trigger nc_inOverworld
