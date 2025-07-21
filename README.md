@@ -82,7 +82,7 @@
 
 | Plateforme | Version   | Lien                                             |
 | ---------- | --------- | ------------------------------------------------ |
-| PaperMC    | 1.21.8-6  | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC    | 1.21.8-10  | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### 🔌 Plugins
 
@@ -91,9 +91,9 @@
 | AxGraves              | 1.22.3         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
 | Chunky                | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
-| EssentialsX           | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXChat       | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXDiscord    | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsX           | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXChat       | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXDiscord    | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | ImageFrame            | 1.8.5          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
 | ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
@@ -119,7 +119,7 @@
 | Explorify                           | 1.6.2   | [Modrinth](https://modrinth.com/datapack/explorify)                                              |
 | Ghast Pedal!*                       | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
 | Hopo Better Underwater Ruins        | 1.2.4   | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
-| Minecart Improvements               | 1.21.7  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
+| Minecart Improvements               | 1.21.8  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
 | Structory                           | 1.3.11  | [Modrinth](https://modrinth.com/datapack/structory)                                              |
 | Terralith                           | 2.5.11  | [Modrinth](https://modrinth.com/datapack/terralith)                                              |
 | Terratonic                          | 3.0     | [Modrinth](https://modrinth.com/datapack/terratonic)                                             |
