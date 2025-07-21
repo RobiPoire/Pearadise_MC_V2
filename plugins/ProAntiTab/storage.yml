@@ -69,5 +69,5 @@ groups:
     - sparktps
     - statsother
     - armorstatues
-    - coo inNether
-    - coo inOverworld
+    - coo_nether
+    - coo_overworld
