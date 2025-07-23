@@ -452,6 +452,7 @@ permissions:
 - essentials.workbench
 - essentials.world
 - essentials.worth
+- forcexaerofairplay.bypass
 - imageframe.create
 - imageframe.create.animated
 - imageframe.delete

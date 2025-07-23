@@ -870,6 +870,8 @@ permissions:
     value: false
 - essentials.worth:
     value: false
+- forcexaerofairplay.bypass:
+    value: false
 - imageframe.create
 - imageframe.create.animated
 - imageframe.delete

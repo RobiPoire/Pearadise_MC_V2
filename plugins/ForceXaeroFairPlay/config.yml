@@ -1,0 +1,10 @@
+# Default mode for all players.
+# Options: none, fairplay, fairplay_nether, disabled
+# fairplay_nether enables cave mode in the nether to prevent it showing the bedrock nether roof.
+defaultMode: fairplay
+
+# World-specific modes
+# Only add worlds if you want to override default setting.
+worldModes:
+  world_nether: fairplay_nether
+  custom_world: none

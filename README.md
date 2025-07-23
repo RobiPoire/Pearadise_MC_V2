@@ -94,12 +94,12 @@
 | EssentialsX           | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | EssentialsXChat       | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | EssentialsXDiscord    | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| ForceXaeroFairPlay    | 2.1.0          | [Modrinth](https://modrinth.com/plugin/forcexaerofairplay/)           |
 | ImageFrame            | 1.8.5          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
 | ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
 | VaultUnlocked         | 2.14.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
-| XaeroForceDisabler    | 1.3            | [Modrinth](https://modrinth.com/plugin/drqads-xaero-force-disabler)   |
 
 ### 📦 Datapacks
 
