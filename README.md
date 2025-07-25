@@ -119,6 +119,7 @@
 | Dungeons and Taverns                | 4.7.3   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns)                                   |
 | Explorify                           | 1.6.2   | [Modrinth](https://modrinth.com/datapack/explorify)                                              |
 | Ghast Pedal!*                       | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
+| MangroveCraft                       |         | By RobiPoire                                                                                     |
 | Hopo Better Underwater Ruins        | 1.2.4   | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
 | Minecart Improvements               | 1.21.8  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
 | Structory                           | 1.3.11  | [Modrinth](https://modrinth.com/datapack/structory)                                              |
