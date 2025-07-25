@@ -3,7 +3,7 @@ prefix: '&#FF00FF&lAxGraves &7» '
 # Combien de temps les tombes doivent-elles disparaître ?
 # Réglez sur -1 pour faire durer les tombes jusqu'au prochain redémarrage du serveur
 # en secondes
-despawn-time-seconds: 1800
+despawn-time-seconds: 1200
 
 # Les tombes doivent-elles laisser tomber tous les objets au sol lorsqu'elles expirent ?
 # si faux : les objets seront supprimés
@@ -52,7 +52,7 @@ interact-only-own: false
 
 # Le joueur doit-il perdre de l'expérience à la mort ?
 # Ceci est un pourcentage, donc 0.5 serait 50 % d'expérience
-xp-keep-percentage: 1.0
+xp-keep-percentage: 0.9
 
 # Le plugin doit-il stocker l'expérience dans les tombes ?
 # Si désactivé, l'expérience sera laissée tomber au sol
@@ -73,7 +73,7 @@ auto-equip-armor: true
 # Si la limite est atteinte, la première tombe sera supprimée
 # Réglez sur -1 pour désactiver
 # Vous pouvez outrepasser ceci en donnant aux joueurs les permissions axgraves.limit.<quantité>
-grave-limit: 5
+grave-limit: 10
 
 # Par défaut, chaque tombe utilisera le crâne du joueur
 # Avec ce paramètre, vous pouvez le remplacer
