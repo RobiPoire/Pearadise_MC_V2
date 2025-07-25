@@ -82,7 +82,7 @@
 
 | Plateforme | Version   | Lien                                             |
 | ---------- | --------- | ------------------------------------------------ |
-| PaperMC    | 1.21.8-10  | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC    | 1.21.8-11  | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### 🔌 Plugins
 
@@ -96,16 +96,16 @@
 | EssentialsXDiscord    | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | ForceXaeroFairPlay    | 2.1.0          | [Modrinth](https://modrinth.com/plugin/forcexaerofairplay/)           |
 | ImageFrame            | 1.8.5          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
-| LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
+| LuckPerms             | 5.5.10         | [luckperms.net](https://luckperms.net/download)                       |
 | ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
-| VaultUnlocked         | 2.14.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
+| VaultUnlocked         | 2.15.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 
 ### 📦 Datapacks
 
 | Datapack                            | Version | Lien                                                                                             |
 | ----------------------------------- | ------- | ------------------------------------------------------------------------------------------------ |
-| All Mob Heads                       | 10.13   | [CurseForge](https://www.curseforge.com/minecraft/customization/all-mob-heads)                   |
+| All Mob Heads                       | 10.14   | [CurseForge](https://www.curseforge.com/minecraft/customization/all-mob-heads)                   |
 | DnT Ancient City Overhaul           | 3.1     | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns-ancient-city-overhaul)             |
 | DnT End Castle Standalone           | 1.3.4   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns-end-castle-standalone)             |
 | DnT Jungle Temple Overhaul          | 2       | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns-jungle-temple-overhaul)            |
