@@ -73,12 +73,12 @@ logging:
 messages:
   kick:
     authentication-servers-down: <lang:multiplayer.disconnect.authservers_down>
-    connection-throttle: Connexion limitée ! Merci d’attendre un moment avant de te
+    connection-throttle: Connexion limitée ! Merci d'attendre un moment avant de te
       reconnecter.
     flying-player: <lang:multiplayer.disconnect.flying>
     flying-vehicle: <lang:multiplayer.disconnect.flying>
-  no-permission: <red>Désolé, tu n’as pas la permission d’exécuter cette commande.
-    Contacte @RobiPoire si tu penses que c’est une erreur.
+  no-permission: <red>Désolé, tu n'as pas la permission d'exécuter cette commande.
+    Contacte @RobiPoire si tu penses que c'est une erreur.
   use-display-name-in-quit-message: false
 misc:
   chat-threads:

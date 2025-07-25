@@ -8,6 +8,7 @@ permissions:
 - essentials.warps.*
 - minecraft.command.*
 - coreprotect.*
+- proantitab.*
 - worldedit.*
 - '*'
 - bukkit.command.tps
@@ -459,6 +460,5 @@ permissions:
 - imageframe.get
 - imageframe.overlay
 - minecraft.command.trigger
-- weight.10
 - proantitab.bypass
-- proantitab.*
+- weight.10

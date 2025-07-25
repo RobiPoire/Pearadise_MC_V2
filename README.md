@@ -89,7 +89,7 @@
 | Plugin                | Version        | Lien                                                                  |
 | --------------------- | -------------- | --------------------------------------------------------------------- |
 | AxGraves              | 1.22.3         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
-| Chunky                | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
+| ~~Chunky~~*           | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
 | EssentialsX           | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | EssentialsXChat       | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
@@ -100,6 +100,7 @@
 | ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
 | VaultUnlocked         | 2.15.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
+\* Désactivé car map déjà généré
 
 ### 📦 Datapacks
 
