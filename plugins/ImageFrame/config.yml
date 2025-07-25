@@ -121,9 +121,7 @@ Settings:
   # For example "imageframe.createlimit.vip"
   # Players with no groups will be treated as "default" unless they have "imageframe.createlimit.unlimited"
   PlayerCreationLimit:
-    default: 10
-    vip: 15
-    moderator: 20
+    default: -1
   # Max amount of markers on an individual map
   MapMarkerLimit: 20
   CombinedMapItem:
