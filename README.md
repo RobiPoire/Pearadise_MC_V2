@@ -82,7 +82,7 @@
 
 | Plateforme | Version   | Lien                                             |
 | ---------- | --------- | ------------------------------------------------ |
-| PaperMC    | 1.21.8-11  | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC    | 1.21.8-25  | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### 🔌 Plugins
 
@@ -91,14 +91,14 @@
 | AxGraves              | 1.22.3         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
 | ~~Chunky~~*           | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
-| EssentialsX           | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXChat       | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXDiscord    | 2.21.2-dev+33  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsX           | 2.21.2         | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXChat       | 2.21.2         | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXDiscord    | 2.21.2         | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | ForceXaeroFairPlay    | 2.1.0          | [Modrinth](https://modrinth.com/plugin/forcexaerofairplay/)           |
 | ImageFrame            | 1.8.5          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms             | 5.5.10         | [luckperms.net](https://luckperms.net/download)                       |
 | ProAntiTab            | 1.9.1          | [Modrinth](https://modrinth.com/plugin/proantitab)                    |
-| VaultUnlocked         | 2.15.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
+| VaultUnlocked         | 2.15.1         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 \* Désactivé car map déjà généré
 
@@ -121,13 +121,13 @@
 | Ghast Pedal!*                       | 1.0     | [CurseForge](https://modrinth.com/datapack/ghast-pedal)                                          |
 | MangroveCraft                       |         | By RobiPoire                                                                                     |
 | Hopo Better Underwater Ruins        | 1.2.4   | [Modrinth](https://modrinth.com/datapack/hopo-better-underwater-ruins)                           |
-| Minecart Improvements               | 1.21.8  | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
+| Minecart Improvements               |         | [minecraft.wiki](https://minecraft.wiki/w/Minecart_Improvements)                                 |
 | Structory                           | 1.3.11  | [Modrinth](https://modrinth.com/datapack/structory)                                              |
 | Terralith                           | 2.5.11  | [Modrinth](https://modrinth.com/datapack/terralith)                                              |
 | Terratonic                          | 3.0     | [Modrinth](https://modrinth.com/datapack/terratonic)                                             |
 | Tool Trims                          | 2.3.3a  | [Modrinth](https://modrinth.com/datapack/tool-trims)                                             |
 | True Ending – Ender Dragon Overhaul | 1.1.4b  | [Modrinth](https://modrinth.com/datapack/true-ending)                                            |
-| Vanilla Refresh                     | 1.4.27g | [Modrinth](https://modrinth.com/datapack/vanilla-refresh)                                        |
+| Vanilla Refresh                     | 1.4.28  | [Modrinth](https://modrinth.com/datapack/vanilla-refresh)                                        |
 | Vanilla Tweaks - Armor Statues      | 2.8.19  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Fast Leaf Decay    | 2.0.18  | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
 | Vanilla Tweaks - Mini Blocks        | 1.1.3   | [vanillatweaks.net](https://vanillatweaks.net/picker/datapacks/)                                 |
@@ -149,4 +149,4 @@
 | True Ending: Ender Dragon Music       | 1.0     | [Modrinth](https://modrinth.com/resourcepack/true-ending-ender-dragon-music) |
 | Terralith Language Fix                | 1.1.0   | [Modrinth](https://modrinth.com/resourcepack/terralith-lang)                 |
 | Vanilla Refresh                       |         | [Modrinth](https://modrinth.com/datapack/vanilla-refresh)                    |
-| Dungeons and Taverns (and DnT addons) | 4.7.3   | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns)               |
+| Dungeons and Taverns (and DnT addons) |         | [Modrinth](https://modrinth.com/datapack/dungeons-and-taverns)               |
